@@ -33,8 +33,12 @@ def parse_cook(soup, categories, expected_matches, get_output_from_item):
                     outputs.append(get_output_from_item(item, cat, i))
     return outputs
 
-def scrape_senate():
-    url = 'https://www.cookpolitical.com/ratings/senate-race-ratings'
+def write_csv(outputs, filename):
+    with open(filename,'w+') as my_csv:
+        csvWriter = csv.writer(my_csv, delimiter=',')
+        csvWriter.writerows(outputs)
+
+def scrape_senate_or_governors(url, output_filename):
     soup = BeautifulSoup(requests.get(url).content, 'html.parser')
 
     def get_output(item, cat, i):
@@ -48,10 +52,17 @@ def scrape_senate():
         output.append(cat)
         return output
     outputs = parse_cook(soup, SENATE_CATEGORIES, 2, get_output)
+    write_csv(outputs, output_filename)
 
-    with open('cook_senators.csv','w+') as my_csv:
-        csvWriter = csv.writer(my_csv, delimiter=',')
-        csvWriter.writerows(outputs)
+def scrape_senate():
+    url = 'https://www.cookpolitical.com/ratings/senate-race-ratings'
+    output_filename = 'cook_senators.csv'
+    scrape_senate_or_governors(url, output_filename)
+
+def scrape_governors():
+    url = 'https://www.cookpolitical.com/index.php/ratings/governor-race-ratings'
+    output_filename = 'cook_governors.csv'
+    scrape_senate_or_governors(url, output_filename)
 
 def scrape_house():
     url = 'https://www.cookpolitical.com/index.php/ratings/house-race-ratings'
@@ -70,11 +81,9 @@ def scrape_house():
         output.append(cat)
         return output
     outputs = parse_cook(soup, HOUSE_CATEGORIES, 1, get_output)
-
-    with open('cook_representatives.csv','w+') as my_csv:
-        csvWriter = csv.writer(my_csv, delimiter=',')
-        csvWriter.writerows(outputs)
+    write_csv(outputs, 'cook_representatives.csv')
 
 if __name__ == '__main__':
     # scrape_senate()
     # scrape_house()
+    scrape_governors()
