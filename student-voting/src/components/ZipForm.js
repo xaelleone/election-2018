@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import geocoder from 'google-geocoder';
+import { geoFind, getDistrict } from '../util/ajax';
 
 class ZipForm extends Component {
   // props: zipTypes (array of strings), onSelectZip (callback, takes zip)
@@ -18,6 +20,7 @@ class ZipForm extends Component {
       }),
     };
     this.zccd = require('../data/zccd.json');
+    this.geo = geocoder({ key: 'AIzaSyAeNRZs1K0XE1ck_WZ784HMdA0AVl5TEFE' });
   }
 
   _formatLabel(zipType) {
@@ -54,8 +57,18 @@ class ZipForm extends Component {
     }
   }
 
-  submitAddressesClicked() {
-    console.log('submitted address!')
+  findDistrct(latLong, zip) {
+
+  }
+
+  // TODO: work in progress.
+  async submitAddressesClicked() {
+    console.log(this.state.inputs[0].address)
+    const latLong = await geoFind(this.geo, this.state.inputs[0].address);
+    console.log(latLong);
+
+    const test = await getDistrict('MA', '7');
+    console.log(test);
   }
 
   inputFieldChanged(inputInd, fieldName, e) {
