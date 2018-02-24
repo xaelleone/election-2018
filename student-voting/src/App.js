@@ -9,12 +9,10 @@ class App extends Component {
     this.state = {
       home: {
         name: 'home',
-        zip: '',
         district: {}
       },
       school: {
         name: 'school',
-        zip: '',
         district: {}
       },
     };

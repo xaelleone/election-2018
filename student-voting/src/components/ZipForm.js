@@ -6,45 +6,54 @@ class ZipForm extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      home: {
-        name: 'home',
-        zip: ''
-      },
-      school: {
-        name: 'school',
-        zip: ''
-      },
+      inputs: [
+        {
+          name: 'home',
+          zip: ''
+        },
+        {
+          name: 'school',
+          zip: ''
+        }
+      ]
     };
   }
 
-  renderTextBox(zipType) {
-    return (
-      <input
-        type="text"
-        value={this.state[zipType].zip}
-        placeholder={formatLabel(zipType) + " ZIP"}
-      />
-    )
+  _formatLabel(zipType) {
+    return zipType.charAt(0).toUpperCase() + zipType.slice(1);
   }
 
-  formatLabel (zipType) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
+  validateZip() {
+
   }
 
-  compare () {
+  compareClicked() {
     
   }
 
-  validateZip () {
+  zipChanged(inputInd, e) {
+    const { inputs } = this.state;
+    inputs[inputInd].zip = e.target.value;
+    this.setState({ inputs });
+  }
 
+  renderTextBox(inputObj, inputInd) {
+    return (
+      <input
+        key={ inputInd }
+        type="text"
+        value={ inputObj.zip }
+        placeholder={ this._formatLabel(inputObj.name) + " ZIP" }
+        onChange={ (e) => this.zipChanged(inputInd, e) }
+      />
+    )
   }
 
   render() {
     return (
       <div>
-        {this.renderTextBox("home")}
-        {this.renderTextBox("school")}
-        <button onClick={this.compare}>
+        { this.state.inputs.map((val, ind) => this.renderTextBox(val, ind)) }
+        <button onClick={ this.compareClicked.bind(this) }>
           Compare
         </button>
       </div>
