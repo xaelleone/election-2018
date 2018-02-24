@@ -1,64 +1,125 @@
 import React, { Component } from 'react';
 
 class ZipForm extends Component {
-  // props: onSelectZip (callback, takes zip)
+  // props: zipTypes (array of strings), onSelectZip (callback, takes zip)
 
   constructor(props) {
     super(props);
     this.state = {
-      inputs: [
-        {
-          name: 'home',
-          zip: ''
-        },
-        {
-          name: 'school',
-          zip: ''
-        }
-      ]
+      inputs: props.zipTypes.map(val => {
+        return {
+          name: val,
+          zip: '',
+          state: '',
+          district: '',
+          queryAddress: false,
+          address: '',
+        };
+      }),
     };
+    this.zccd = require('../data/zccd.json');
   }
 
   _formatLabel(zipType) {
     return zipType.charAt(0).toUpperCase() + zipType.slice(1);
   }
 
-  validateZip() {
+  validateZip(inputObj) {
+    if (!(inputObj.zip in this.zccd)) {
+      window.alert('invalid ' + inputObj.name + ' ZIP');
+      return null;
+    }
 
+    const districts = this.zccd[inputObj.zip];
+    if (districts.length > 1) {
+      inputObj.queryAddress = true;
+    } else {
+      inputObj.state = districts[0].state_abbr;
+      inputObj.district = districts[0].cd;
+    }
+    return inputObj;
   }
 
   compareClicked() {
-    
+    const { inputs } = this.state;
+    const updatedInputs = inputs.map(val => this.validateZip(val));
+    if (!updatedInputs.every(val => val)) {
+      return;
+    }
+    this.setState({ inputs: updatedInputs });
+
+    // finish only if no addresses need to be queried
+    if (!this.shouldShowAddressInput(updatedInputs)) {
+      this.props.onSelectZip(updatedInputs);
+    }
   }
 
-  zipChanged(inputInd, e) {
+  submitAddressesClicked() {
+    console.log('submitted address!')
+  }
+
+  inputFieldChanged(inputInd, fieldName, e) {
     const { inputs } = this.state;
-    inputs[inputInd].zip = e.target.value;
+    inputs[inputInd][fieldName] = e.target.value;
     this.setState({ inputs });
   }
 
-  renderTextBox(inputObj, inputInd) {
-    return (
-      <input
-        key={ inputInd }
-        type="text"
-        value={ inputObj.zip }
-        placeholder={ this._formatLabel(inputObj.name) + " ZIP" }
-        onChange={ (e) => this.zipChanged(inputInd, e) }
-      />
-    )
+  shouldShowAddressInput(inputs) {
+    return this.state.inputs.some(val => val.queryAddress);
   }
 
-  render() {
+  renderZipInput() {
     return (
       <div>
-        { this.state.inputs.map((val, ind) => this.renderTextBox(val, ind)) }
+        {
+          this.state.inputs.map((inputObj, ind) => this.renderTextBox(inputObj, ind, 'zip', 'ZIP'))
+        }
         <button onClick={ this.compareClicked.bind(this) }>
           Compare
         </button>
       </div>
     );
-    // display input text boxes and possibly ask for address
+  }
+
+  renderTextBox(inputObj, ind, fieldName, placeHolderText) {
+    return (
+      <input
+        key={ ind }
+        type="text"
+        value={ inputObj[fieldName] }
+        placeholder={ this._formatLabel(inputObj.name) + ' ' + placeHolderText }
+        onChange={ (e) => this.inputFieldChanged(ind, fieldName, e) }
+      />
+    );
+  }
+
+  renderAddressInput() {
+    return (
+      <div>
+        {
+          this.state.inputs.map((inputObj, ind) => {
+            if (inputObj.queryAddress) {
+              return this.renderTextBox(inputObj, ind, 'address', 'Address');
+            } else {
+              return null;
+            }
+          })
+        }
+        <button onClick={ this.submitAddressesClicked.bind(this) }>
+          Submit Address(es)
+        </button>
+      </div>
+    );
+  }
+
+  render() {
+    return (
+      <div>
+        { this.shouldShowAddressInput(this.state.inputs)
+          ? this.renderAddressInput()
+          : this.renderZipInput() }
+      </div>
+    );
   }
 }
 
