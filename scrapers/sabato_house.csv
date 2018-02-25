@@ -1,4 +1,4 @@
-AK,AL,Don Young,R,Yes,Safe R,7
+AK,0,Don Young,R,Yes,Safe R,7
 AL,1,Bradley Byrne,R,Yes,Safe R,7
 AL,2,Martha Roby,R,Yes,Safe R,7
 AL,3,Mike D. Rogers,R,Yes,Safe R,7
@@ -6,12 +6,12 @@ AL,4,Rob Aderholt,R,Yes,Safe R,7
 AL,5,Mo Brooks,R,Yes,Safe R,7
 AL,6,Gary Palmer,R,Yes,Safe R,7
 AL,7,Terri Sewell,D,Yes,Safe D,1
-DE,AL,Lisa Blunt Rochester,D,Yes,Safe D,1
-MT,AL,Greg Gianforte,R,Yes,Leans R,5
-ND,AL,Kevin Cramer,R,No,Safe R,7
-SD,AL,Kristi Noem,R,No,Safe R,7
-VT,AL,Peter Welch,D,Yes,Safe D,1
-WY,AL,Liz Cheney,R,Yes,Safe R,7
+DE,0,Lisa Blunt Rochester,D,Yes,Safe D,1
+MT,0,Greg Gianforte,R,Yes,Leans R,5
+ND,0,Kevin Cramer,R,No,Safe R,7
+SD,0,Kristi Noem,R,No,Safe R,7
+VT,0,Peter Welch,D,Yes,Safe D,1
+WY,0,Liz Cheney,R,Yes,Safe R,7
 AZ,1,Tom O'Halleran,D,Yes,Leans D,3
 AZ,2,Martha McSally,R,No,Leans D (flip),3
 AZ,3,Raul Grijalva,D,Yes,Safe D,1
@@ -106,7 +106,7 @@ FL,13,Charlie Crist,D,Yes,Likely D,2
 FL,14,Kathy Castor,D,Yes,Safe D,1
 FL,15,Dennis Ross,R,Yes,Safe R,7
 FL,16,Vern Buchanan,R,Yes,Safe R,7
-FL,17,Tom Rooney,R,Yes,Safe R,7
+FL,17,Tom Rooney,R,No,Safe R,7
 FL,18,Brian Mast,R,Yes,Likely R,6
 FL,19,Francis Rooney,R,Yes,Safe R,7
 FL,20,Alcee Hastings,D,Yes,Safe D,1
@@ -213,7 +213,7 @@ MI,9,Sander Levin,D,No,Safe D,1
 MI,10,Paul Mitchell,R,Yes,Safe R,7
 MI,11,Dave Trott,R,No,Toss-up,4
 MI,12,Debbie Dingell,D,Yes,Safe D,1
-MI,13,VACANT (Concurrent special 11/6/18),VACANT (Concurrent special 11/6/18),D,No,Safe D
+MI,13,VACANT (Concurrent special 11/6/18),D,No,Safe D,1
 MI,14,Brenda Lawrence,D,Yes,Safe D,1
 MN,1,Tim Walz,D,No,Toss-up,4
 MN,2,Jason Lewis,R,Yes,Toss-up,4
@@ -325,24 +325,6 @@ OR,2,Greg Walden,R,Yes,Safe R,7
 OR,3,Earl Blumenauer,D,Yes,Safe D,1
 OR,4,Peter DeFazio,D,Yes,Safe D,1
 OR,5,Kurt Schrader,D,Yes,Safe D,1
-PA,1,Bob Brady,D,No,Safe D,1
-PA,2,Dwight Evans,D,Yes,Safe D,1
-PA,3,Mike Kelly,R,Yes,Safe R,7
-PA,4,Scott Perry,R,Yes,Safe R,7
-PA,5,Glenn Thompson,R,Yes,Safe R,7
-PA,6,Ryan Costello,R,Yes,Leans R,5
-PA,7,Pat Meehan,R,No,Toss-up,4
-PA,8,Brian Fitzpatrick,R,Yes,Leans R,5
-PA,9,Bill Shuster,R,No,Safe R,7
-PA,10,Tom Marino,R,Yes,Safe R,7
-PA,11,Lou Barletta,R,No,Safe R,7
-PA,12,Keith Rothfus,R,Yes,Safe R,7
-PA,13,Brendan Boyle,D,Yes,Safe D,1
-PA,14,Michael Doyle,D,Yes,Safe D,1
-PA,15,Charlie Dent,R,No,Leans R,5
-PA,16,Lloyd Smucker,R,Yes,Likely R,6
-PA,17,Matt Cartwright,D,Yes,Likely D,2
-PA,18,VACANT (Special 3/13/18),R,NA,Leans R,5
 RI,1,David Cicilline,D,Yes,Safe D,1
 RI,2,Jim Langevin,D,Yes,Safe D,1
 SC,1,Mark Sanford,R,Yes,Safe R,7

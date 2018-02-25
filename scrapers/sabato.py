@@ -2,6 +2,11 @@ from bs4 import BeautifulSoup
 import requests
 import csv
 
+def get_children(node):
+    children = list(node.children)
+    children = list(filter(lambda x: x != '\n', children))
+    return children
+
 def scrape_sheet(outfile_name, gid, state_list, num_cols):
     print(outfile_name)
     url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vT4KY7cdB2oiA8_Qlfjuei0O9LkApgXMnyUm4pcW2KR5pKsTRcEcnC-UoSB8LfqljT1ktFI5e9CPJUn/pubhtml?gid=' + gid + '&single=true'
@@ -13,9 +18,11 @@ def scrape_sheet(outfile_name, gid, state_list, num_cols):
         if not state_rows:
             continue
         for state_row in state_rows:
-            contents = [x.text for x in state_row.parent.findChildren()[2:2 + num_cols]]
+            contents = [x.text for x in get_children(state_row.parent)[1:1 + num_cols]]
             if contents[1] == 'AL':
-                contents[1] == '1'
+                contents[1] = '0'
+            if contents[0] in name_to_abbr:
+                contents[0] = name_to_abbr[contents[0]]
             if contents not in output:
                 output.append(contents)
 
@@ -32,8 +39,10 @@ with open('states.txt') as fin:
 with open('state_abbrs.txt') as fin:
     state_abbrs = [x.strip() for x in fin.readlines()]
 
+name_to_abbr = dict(zip(state_names, state_abbrs))
 state_names = state_names + ['Minnesota (S)']
+name_to_abbr['Minnesota (S)'] = 'MN'
 
 scrape_sheet('senate', senate_gid, state_names, 6)
-scrape_sheet('governors', governor_gid, state_names, 6)
+scrape_sheet('governor', governor_gid, state_names, 6)
 scrape_sheet('house', house_gid, state_abbrs, 7)
