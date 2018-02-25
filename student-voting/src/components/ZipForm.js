@@ -57,18 +57,28 @@ class ZipForm extends Component {
     }
   }
 
-  findDistrct(latLong, zip) {
-
+  async findDistrict(latLong, zip) {
+    const inside = require('point-in-polygon');
+    const cdCandidates = this.zccd[zip];
+    for (const district of cdCandidates) {
+      const districtGeoData = await getDistrict(district.state_abbr, district.cd);
+      const boundaries = districtGeoData.geometry.coordinates;
+      for (const boundary of boundaries) {
+        console.log(boundary[0]);
+        console.log(latLong);
+        if (inside([latLong.location.lng, latLong.location.lat], boundary[0])) {
+          return district;
+        }
+      }
+    }
   }
 
   // TODO: work in progress.
   async submitAddressesClicked() {
     console.log(this.state.inputs[0].address)
     const latLong = await geoFind(this.geo, this.state.inputs[0].address);
-    console.log(latLong);
 
-    const test = await getDistrict('MA', '7');
-    console.log(test);
+    const district = await this.findDistrict(latLong, this.state.inputs[0].zip);
   }
 
   inputFieldChanged(inputInd, fieldName, e) {
