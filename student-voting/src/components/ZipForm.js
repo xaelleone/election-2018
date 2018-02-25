@@ -20,6 +20,7 @@ class ZipForm extends Component {
       }),
     };
     this.zccd = require('../data/zccd.json');
+    this.inside = require('point-in-polygon');
     this.geo = geocoder({ key: 'AIzaSyAeNRZs1K0XE1ck_WZ784HMdA0AVl5TEFE' });
   }
 
@@ -58,27 +59,45 @@ class ZipForm extends Component {
   }
 
   async findDistrict(latLong, zip) {
-    const inside = require('point-in-polygon');
     const cdCandidates = this.zccd[zip];
     for (const district of cdCandidates) {
       const districtGeoData = await getDistrict(district.state_abbr, district.cd);
       const boundaries = districtGeoData.geometry.coordinates;
       for (const boundary of boundaries) {
-        console.log(boundary[0]);
-        console.log(latLong);
-        if (inside([latLong.location.lng, latLong.location.lat], boundary[0])) {
+        if (this.inside([latLong.location.lng, latLong.location.lat], boundary[0])) {
           return district;
         }
       }
     }
   }
 
+  async resolveAddresses (inputObj) {
+    if (!inputObj.address) {
+      const latLong = await geoFind(this.geo, inputObj.address);
+      if (latLong.zip != inputObj.zip) {
+        window.alert('address not in ' + inputObj.name + ' ZIP');
+        return null;
+      }
+      const district = await this.findDistrict(latLong, inputObj.zip);
+      inputObj.state = district.state_abbr;
+      inputObj.cd = district.cd;
+    }
+    return inputObj;
+  }
+
   // TODO: work in progress.
   async submitAddressesClicked() {
-    console.log(this.state.inputs[0].address)
-    const latLong = await geoFind(this.geo, this.state.inputs[0].address);
+    const { inputs } = this.state;
+    const updatedInputs = inputs.map(val => this.resolveAddresses(val));
+    if (!updatedInputs.every(val => val)) {
+      return;
+    }
+    this.setState({ inputs: updatedInputs });
 
-    const district = await this.findDistrict(latLong, this.state.inputs[0].zip);
+    // finish only if no addresses need to be queried
+    if (!this.shouldShowAddressInput(updatedInputs)) {
+      this.props.onSelectZip(updatedInputs);
+    }
   }
 
   inputFieldChanged(inputInd, fieldName, e) {
