@@ -3,324 +3,324 @@
         "party": "R",
         "state": "AL",
         "name": "Kay Ivey",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "cook_rank": "7",
-        "rothenberg_rank": "7"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AK": {
         "party": "I",
         "state": "AK",
         "name": "Bill Walker",
-        "incumbent": "Yes",
-        "sabato_rank": "4",
-        "cook_rank": "4",
-        "rothenberg_rank": "2.5"
+        "incumbent": true,
+        "sabato_rank": 4.0,
+        "cook_rank": 4.0,
+        "rothenberg_rank": 2.5
     },
     "AZ": {
         "party": "R",
         "state": "AZ",
         "name": "Doug Ducey",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
-        "cook_rank": "6",
-        "rothenberg_rank": "6.25"
+        "incumbent": true,
+        "sabato_rank": 6.0,
+        "cook_rank": 6.0,
+        "rothenberg_rank": 6.25
     },
     "AR": {
         "party": "R",
         "state": "AR",
         "name": "Asa Hutchinson",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "cook_rank": "7",
-        "rothenberg_rank": "7"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "CA": {
         "party": "D",
         "state": "CA",
         "name": "Jerry Brown",
-        "incumbent": "No",
-        "sabato_rank": "1",
-        "cook_rank": "1",
-        "rothenberg_rank": "1"
+        "incumbent": false,
+        "sabato_rank": 1.0,
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CO": {
         "party": "D",
         "state": "CO",
         "name": "John Hickenlooper",
-        "incumbent": "No",
-        "sabato_rank": "4",
-        "cook_rank": "3",
-        "rothenberg_rank": "2.5"
+        "incumbent": false,
+        "sabato_rank": 4.0,
+        "cook_rank": 3.0,
+        "rothenberg_rank": 2.5
     },
     "CT": {
         "party": "D",
         "state": "CT",
         "name": "Dan Malloy",
-        "incumbent": "No",
-        "sabato_rank": "4",
-        "cook_rank": "4",
-        "rothenberg_rank": "2.5"
+        "incumbent": false,
+        "sabato_rank": 4.0,
+        "cook_rank": 4.0,
+        "rothenberg_rank": 2.5
     },
     "FL": {
         "party": "R",
         "state": "FL",
         "name": "Rick Scott",
-        "incumbent": "No",
-        "sabato_rank": "4",
-        "cook_rank": "4",
-        "rothenberg_rank": "4"
+        "incumbent": false,
+        "sabato_rank": 4.0,
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.0
     },
     "GA": {
         "party": "R",
         "state": "GA",
         "name": "Nathan Deal",
-        "incumbent": "No",
-        "sabato_rank": "6",
-        "cook_rank": "7",
-        "rothenberg_rank": "6.25"
+        "incumbent": false,
+        "sabato_rank": 6.0,
+        "cook_rank": 7.0,
+        "rothenberg_rank": 6.25
     },
     "HI": {
         "party": "D",
         "state": "HI",
         "name": "David Ige",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "cook_rank": "1",
-        "rothenberg_rank": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "ID": {
         "party": "R",
         "state": "ID",
         "name": "Butch Otter",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "cook_rank": "7",
-        "rothenberg_rank": "7"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "IL": {
         "party": "R",
         "state": "IL",
         "name": "Bruce Rauner",
-        "incumbent": "Yes",
-        "sabato_rank": "4",
-        "cook_rank": "4",
-        "rothenberg_rank": "3.25"
+        "incumbent": true,
+        "sabato_rank": 4.0,
+        "cook_rank": 4.0,
+        "rothenberg_rank": 3.25
     },
     "IA": {
         "party": "R",
         "state": "IA",
         "name": "Kim Reynolds",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
-        "cook_rank": "6",
-        "rothenberg_rank": "5.5"
+        "incumbent": true,
+        "sabato_rank": 5.0,
+        "cook_rank": 6.0,
+        "rothenberg_rank": 5.5
     },
     "KS": {
         "party": "R",
         "state": "KS",
         "name": "Sam Brownback",
-        "incumbent": "No",
-        "sabato_rank": "5",
-        "cook_rank": "6",
-        "rothenberg_rank": "6.25"
+        "incumbent": false,
+        "sabato_rank": 5.0,
+        "cook_rank": 6.0,
+        "rothenberg_rank": 6.25
     },
     "ME": {
         "party": "R",
         "state": "ME",
         "name": "Paul LePage",
-        "incumbent": "No",
-        "sabato_rank": "3",
-        "cook_rank": "4",
-        "rothenberg_rank": "2.5"
+        "incumbent": false,
+        "sabato_rank": 3.0,
+        "cook_rank": 4.0,
+        "rothenberg_rank": 2.5
     },
     "MD": {
         "party": "R",
         "state": "MD",
         "name": "Larry Hogan",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
-        "cook_rank": "6",
-        "rothenberg_rank": "5.5"
+        "incumbent": true,
+        "sabato_rank": 5.0,
+        "cook_rank": 6.0,
+        "rothenberg_rank": 5.5
     },
     "MA": {
         "party": "R",
         "state": "MA",
         "name": "Charlie Baker",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
-        "cook_rank": "6",
-        "rothenberg_rank": "7"
+        "incumbent": true,
+        "sabato_rank": 6.0,
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "MI": {
         "party": "R",
         "state": "MI",
         "name": "Rick Snyder",
-        "incumbent": "No",
-        "sabato_rank": "4",
-        "cook_rank": "4",
-        "rothenberg_rank": "4"
+        "incumbent": false,
+        "sabato_rank": 4.0,
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.0
     },
     "MN": {
         "party": "D",
         "state": "MN",
         "name": "Mark Dayton",
-        "incumbent": "No",
-        "sabato_rank": "3",
-        "cook_rank": "4",
-        "rothenberg_rank": "1.75"
+        "incumbent": false,
+        "sabato_rank": 3.0,
+        "cook_rank": 4.0,
+        "rothenberg_rank": 1.75
     },
     "NE": {
         "party": "R",
         "state": "NE",
         "name": "Pete Ricketts",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "cook_rank": "7",
-        "rothenberg_rank": "7"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NV": {
         "party": "R",
         "state": "NV",
         "name": "Brian Sandoval",
-        "incumbent": "No",
-        "sabato_rank": "4",
-        "cook_rank": "4",
-        "rothenberg_rank": "4"
+        "incumbent": false,
+        "sabato_rank": 4.0,
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.0
     },
     "NH": {
         "party": "R",
         "state": "NH",
         "name": "Chris Sununu",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
-        "cook_rank": "5",
-        "rothenberg_rank": "5.5"
+        "incumbent": true,
+        "sabato_rank": 5.0,
+        "cook_rank": 5.0,
+        "rothenberg_rank": 5.5
     },
     "NM": {
         "party": "R",
         "state": "NM",
         "name": "Susana Martinez",
-        "incumbent": "No",
-        "sabato_rank": "3",
-        "cook_rank": "3",
-        "rothenberg_rank": "2.5"
+        "incumbent": false,
+        "sabato_rank": 3.0,
+        "cook_rank": 3.0,
+        "rothenberg_rank": 2.5
     },
     "NY": {
         "party": "D",
         "state": "NY",
         "name": "Andrew Cuomo",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "cook_rank": "1",
-        "rothenberg_rank": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "OH": {
         "party": "R",
         "state": "OH",
         "name": "John Kasich",
-        "incumbent": "No",
-        "sabato_rank": "5",
-        "cook_rank": "5",
-        "rothenberg_rank": "4.75"
+        "incumbent": false,
+        "sabato_rank": 5.0,
+        "cook_rank": 5.0,
+        "rothenberg_rank": 4.75
     },
     "OK": {
         "party": "R",
         "state": "OK",
         "name": "Mary Fallin",
-        "incumbent": "No",
-        "sabato_rank": "6",
-        "cook_rank": "7",
-        "rothenberg_rank": "6.25"
+        "incumbent": false,
+        "sabato_rank": 6.0,
+        "cook_rank": 7.0,
+        "rothenberg_rank": 6.25
     },
     "OR": {
         "party": "D",
         "state": "OR",
         "name": "Kate Brown",
-        "incumbent": "Yes",
-        "sabato_rank": "2",
-        "cook_rank": "2",
-        "rothenberg_rank": "1.75"
+        "incumbent": true,
+        "sabato_rank": 2.0,
+        "cook_rank": 2.0,
+        "rothenberg_rank": 1.75
     },
     "PA": {
         "party": "D",
         "state": "PA",
         "name": "Tom Wolf",
-        "incumbent": "Yes",
-        "sabato_rank": "3",
-        "cook_rank": "3",
-        "rothenberg_rank": "2.5"
+        "incumbent": true,
+        "sabato_rank": 3.0,
+        "cook_rank": 3.0,
+        "rothenberg_rank": 2.5
     },
     "RI": {
         "party": "D",
         "state": "RI",
         "name": "Gina Raimondo",
-        "incumbent": "Yes",
-        "sabato_rank": "3",
-        "cook_rank": "2",
-        "rothenberg_rank": "1"
+        "incumbent": true,
+        "sabato_rank": 3.0,
+        "cook_rank": 2.0,
+        "rothenberg_rank": 1.0
     },
     "SC": {
         "party": "R",
         "state": "SC",
         "name": "Henry McMaster",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "cook_rank": "7",
-        "rothenberg_rank": "7"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "SD": {
         "party": "R",
         "state": "SD",
         "name": "Dennis Daugaard",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "cook_rank": "7",
-        "rothenberg_rank": "7"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TN": {
         "party": "R",
         "state": "TN",
         "name": "Bill Haslam",
-        "incumbent": "No",
-        "sabato_rank": "6",
-        "cook_rank": "6",
-        "rothenberg_rank": "6.25"
+        "incumbent": false,
+        "sabato_rank": 6.0,
+        "cook_rank": 6.0,
+        "rothenberg_rank": 6.25
     },
     "TX": {
         "party": "R",
         "state": "TX",
         "name": "Greg Abbott",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "cook_rank": "7",
-        "rothenberg_rank": "7"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "VT": {
         "party": "R",
         "state": "VT",
         "name": "Phil Scott",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
-        "cook_rank": "6",
-        "rothenberg_rank": "7"
+        "incumbent": true,
+        "sabato_rank": 6.0,
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "WI": {
         "party": "R",
         "state": "WI",
         "name": "Scott Walker",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
-        "cook_rank": "5",
-        "rothenberg_rank": "6.25"
+        "incumbent": true,
+        "sabato_rank": 5.0,
+        "cook_rank": 5.0,
+        "rothenberg_rank": 6.25
     },
     "WY": {
         "party": "R",
         "state": "WY",
         "name": "Matt Mead",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "cook_rank": "7",
-        "rothenberg_rank": "7"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     }
 }

@@ -3,3551 +3,4258 @@
         "party": "R",
         "state": "AK",
         "name": "Don Young",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "0"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "0",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AL1": {
         "party": "R",
         "state": "AL",
         "name": "Bradley Byrne",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AL2": {
         "party": "R",
         "state": "AL",
         "name": "Martha Roby",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AL3": {
         "party": "R",
         "state": "AL",
         "name": "Mike D. Rogers",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AL4": {
         "party": "R",
         "state": "AL",
         "name": "Rob Aderholt",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AL5": {
         "party": "R",
         "state": "AL",
         "name": "Mo Brooks",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "5",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AL6": {
         "party": "R",
         "state": "AL",
         "name": "Gary Palmer",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "6"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "6",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AL7": {
         "party": "D",
         "state": "AL",
         "name": "Terri Sewell",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "7"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "7",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "DE0": {
         "party": "D",
         "state": "DE",
         "name": "Lisa Blunt Rochester",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "0"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "0",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MT0": {
         "party": "R",
         "state": "MT",
         "name": "Greg Gianforte",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "0",
-        "cook_rank": "6",
-        "rothenberg_rank": "6.25"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 6.25
     },
     "ND0": {
         "party": "R",
         "state": "ND",
         "name": "Kevin Cramer",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "0"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "0",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "SD0": {
         "party": "R",
         "state": "SD",
         "name": "Kristi Noem",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "0"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "0",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "VT0": {
         "party": "D",
         "state": "VT",
         "name": "Peter Welch",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "0"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "0",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "WY0": {
         "party": "R",
         "state": "WY",
         "name": "Liz Cheney",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "0"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "0",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AZ1": {
         "party": "D",
         "state": "AZ",
         "name": "Tom O'Halleran",
-        "incumbent": "Yes",
-        "sabato_rank": "3",
+        "incumbent": true,
+        "sabato_rank": 3.0,
         "district": "1",
-        "cook_rank": "3",
-        "rothenberg_rank": "3.25"
+        "cook_rank": 3.0,
+        "rothenberg_rank": 3.25
     },
     "AZ2": {
         "party": "R",
         "state": "AZ",
         "name": "Martha McSally",
-        "incumbent": "No",
-        "sabato_rank": "3",
+        "incumbent": false,
+        "sabato_rank": 3.0,
         "district": "2",
-        "cook_rank": "3"
+        "cook_rank": 3.0,
+        "rothenberg_rank": 3.25
     },
     "AZ3": {
         "party": "D",
         "state": "AZ",
         "name": "Raul Grijalva",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "3",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "AZ4": {
         "party": "R",
         "state": "AZ",
         "name": "Paul Gosar",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AZ5": {
         "party": "R",
         "state": "AZ",
         "name": "Andy Biggs",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "5",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AZ6": {
         "party": "R",
         "state": "AZ",
         "name": "David Schweikert",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "6"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "6",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AZ7": {
         "party": "D",
         "state": "AZ",
         "name": "Ruben Gallego",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "7"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "7",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "AZ8": {
         "party": "R",
         "state": "AZ",
         "name": "VACANT (Special 4/24/18)",
-        "incumbent": "NA",
-        "sabato_rank": "7",
-        "district": "8"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "8",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AZ9": {
         "party": "D",
         "state": "AZ",
         "name": "Kyrsten Sinema",
-        "incumbent": "No",
-        "sabato_rank": "2",
+        "incumbent": false,
+        "sabato_rank": 2.0,
         "district": "9",
-        "cook_rank": "2"
+        "cook_rank": 2.0,
+        "rothenberg_rank": 1.0
     },
     "AR1": {
         "party": "R",
         "state": "AR",
         "name": "Rick Crawford",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AR2": {
         "party": "R",
         "state": "AR",
         "name": "French Hill",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "2",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "AR3": {
         "party": "R",
         "state": "AR",
         "name": "Steve Womack",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "AR4": {
         "party": "R",
         "state": "AR",
         "name": "Bruce Westerman",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "CA1": {
         "party": "R",
         "state": "CA",
         "name": "Doug LaMalfa",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "CA2": {
         "party": "D",
         "state": "CA",
         "name": "Jared Huffman",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "2",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA3": {
         "party": "D",
         "state": "CA",
         "name": "John Garamendi",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "3",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA4": {
         "party": "R",
         "state": "CA",
         "name": "Tom McClintock",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
+        "incumbent": true,
+        "sabato_rank": 7.0,
         "district": "4",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "CA5": {
         "party": "D",
         "state": "CA",
         "name": "Mike Thompson",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "5",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA6": {
         "party": "D",
         "state": "CA",
         "name": "Doris Matsui",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "6"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "6",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA7": {
         "party": "D",
         "state": "CA",
         "name": "Ami Bera",
-        "incumbent": "Yes",
-        "sabato_rank": "3",
+        "incumbent": true,
+        "sabato_rank": 3.0,
         "district": "7",
-        "cook_rank": "3",
-        "rothenberg_rank": "1.75"
+        "cook_rank": 3.0,
+        "rothenberg_rank": 1.75
     },
     "CA8": {
         "party": "R",
         "state": "CA",
         "name": "Paul Cook",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "8",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "CA9": {
         "party": "D",
         "state": "CA",
         "name": "Jerry McNerney",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "9"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "9",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA10": {
         "party": "R",
         "state": "CA",
         "name": "Jeff Denham",
-        "incumbent": "Yes",
-        "sabato_rank": "4",
+        "incumbent": true,
+        "sabato_rank": 4.0,
         "district": "10",
-        "cook_rank": "4",
-        "rothenberg_rank": "4.75"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.75
     },
     "CA11": {
         "party": "D",
         "state": "CA",
         "name": "Mark DeSaulnier",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "11"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "11",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA12": {
         "party": "D",
         "state": "CA",
         "name": "Nancy Pelosi",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "12"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "12",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA13": {
         "party": "D",
         "state": "CA",
         "name": "Barbara Lee",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "13"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "13",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA14": {
         "party": "D",
         "state": "CA",
         "name": "Jackie Speier",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "14"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "14",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA15": {
         "party": "D",
         "state": "CA",
         "name": "Eric Swalwell",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "15"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "15",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA16": {
         "party": "D",
         "state": "CA",
         "name": "Jim Costa",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "16"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "16",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA17": {
         "party": "D",
         "state": "CA",
         "name": "Ro Khanna",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "17"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "17",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA18": {
         "party": "D",
         "state": "CA",
         "name": "Anna Eshoo",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "18"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "18",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA19": {
         "party": "D",
         "state": "CA",
         "name": "Zoe Lofgren",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "19"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "19",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA20": {
         "party": "D",
         "state": "CA",
         "name": "Jimmy Panetta",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "20"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "20",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA21": {
         "party": "R",
         "state": "CA",
         "name": "David Valadao",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "21",
-        "cook_rank": "6",
-        "rothenberg_rank": "6.25"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 6.25
     },
     "CA22": {
         "party": "R",
         "state": "CA",
         "name": "Devin Nunes",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "22"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "22",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "CA23": {
         "party": "R",
         "state": "CA",
         "name": "Kevin McCarthy",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "23"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "23",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "CA24": {
         "party": "D",
         "state": "CA",
         "name": "Salud Carbajal",
-        "incumbent": "Yes",
-        "sabato_rank": "2",
+        "incumbent": true,
+        "sabato_rank": 2.0,
         "district": "24",
-        "cook_rank": "2"
+        "cook_rank": 2.0,
+        "rothenberg_rank": 1.0
     },
     "CA25": {
         "party": "R",
         "state": "CA",
         "name": "Steve Knight",
-        "incumbent": "Yes",
-        "sabato_rank": "4",
+        "incumbent": true,
+        "sabato_rank": 4.0,
         "district": "25",
-        "cook_rank": "4"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.75
     },
     "CA26": {
         "party": "D",
         "state": "CA",
         "name": "Julia Brownley",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "26"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "26",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA27": {
         "party": "D",
         "state": "CA",
         "name": "Judy Chu",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "27"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "27",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA28": {
         "party": "D",
         "state": "CA",
         "name": "Adam Schiff",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "28"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "28",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA29": {
         "party": "D",
         "state": "CA",
         "name": "Tony Cardenas",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "29"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "29",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA30": {
         "party": "D",
         "state": "CA",
         "name": "Brad Sherman",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "30"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "30",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA31": {
         "party": "D",
         "state": "CA",
         "name": "Pete Aguilar",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "31"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "31",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA32": {
         "party": "D",
         "state": "CA",
         "name": "Grace Napolitano",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "32"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "32",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA33": {
         "party": "D",
         "state": "CA",
         "name": "Ted Lieu",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "33"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "33",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA34": {
         "party": "D",
         "state": "CA",
         "name": "Jimmy Gomez",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "34"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "34",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA35": {
         "party": "D",
         "state": "CA",
         "name": "Norma Torres",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "35"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "35",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA36": {
         "party": "D",
         "state": "CA",
         "name": "Raul Ruiz",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "36"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "36",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA37": {
         "party": "D",
         "state": "CA",
         "name": "Karen Bass",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "37"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "37",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA38": {
         "party": "D",
         "state": "CA",
         "name": "Linda Sanchez",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "38"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "38",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA39": {
         "party": "R",
         "state": "CA",
         "name": "Ed Royce",
-        "incumbent": "No",
-        "sabato_rank": "4",
+        "incumbent": false,
+        "sabato_rank": 4.0,
         "district": "39",
-        "cook_rank": "3",
-        "rothenberg_rank": "4"
+        "cook_rank": 3.0,
+        "rothenberg_rank": 4.0
     },
     "CA40": {
         "party": "D",
         "state": "CA",
         "name": "Lucille Roybal-Allard",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "40"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "40",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA41": {
         "party": "D",
         "state": "CA",
         "name": "Mark Takano",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "41"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "41",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA42": {
         "party": "R",
         "state": "CA",
         "name": "Ken Calvert",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "42"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "42",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "CA43": {
         "party": "D",
         "state": "CA",
         "name": "Maxine Waters",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "43"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "43",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA44": {
         "party": "D",
         "state": "CA",
         "name": "Nanette Barragan",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "44"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "44",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA45": {
         "party": "R",
         "state": "CA",
         "name": "Mimi Walters",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "45",
-        "cook_rank": "5",
-        "rothenberg_rank": "5.5"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 5.5
     },
     "CA46": {
         "party": "D",
         "state": "CA",
         "name": "Lou Correa",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "46"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "46",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA47": {
         "party": "D",
         "state": "CA",
         "name": "Alan Lowenthal",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "47"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "47",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA48": {
         "party": "R",
         "state": "CA",
         "name": "Dana Rohrabacher",
-        "incumbent": "Yes",
-        "sabato_rank": "4",
+        "incumbent": true,
+        "sabato_rank": 4.0,
         "district": "48",
-        "cook_rank": "4"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.75
     },
     "CA49": {
         "party": "R",
         "state": "CA",
         "name": "Darrell Issa",
-        "incumbent": "No",
-        "sabato_rank": "3",
+        "incumbent": false,
+        "sabato_rank": 3.0,
         "district": "49",
-        "cook_rank": "3"
+        "cook_rank": 3.0,
+        "rothenberg_rank": 4.0
     },
     "CA50": {
         "party": "R",
         "state": "CA",
         "name": "Duncan Hunter",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
+        "incumbent": true,
+        "sabato_rank": 7.0,
         "district": "50",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 6.25
     },
     "CA51": {
         "party": "D",
         "state": "CA",
         "name": "Juan Vargas",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "51"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "51",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA52": {
         "party": "D",
         "state": "CA",
         "name": "Scott Peters",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "52"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "52",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CA53": {
         "party": "D",
         "state": "CA",
         "name": "Susan Davis",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "53"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "53",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CO1": {
         "party": "D",
         "state": "CO",
         "name": "Diana DeGette",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CO2": {
         "party": "D",
         "state": "CO",
         "name": "Jared Polis",
-        "incumbent": "No",
-        "sabato_rank": "1",
-        "district": "2"
+        "incumbent": false,
+        "sabato_rank": 1.0,
+        "district": "2",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CO3": {
         "party": "R",
         "state": "CO",
         "name": "Scott Tipton",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "CO4": {
         "party": "R",
         "state": "CO",
         "name": "Ken Buck",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "CO5": {
         "party": "R",
         "state": "CO",
         "name": "Doug Lamborn",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "5",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "CO6": {
         "party": "R",
         "state": "CO",
         "name": "Mike Coffman",
-        "incumbent": "Yes",
-        "sabato_rank": "4",
+        "incumbent": true,
+        "sabato_rank": 4.0,
         "district": "6",
-        "cook_rank": "4",
-        "rothenberg_rank": "4.75"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.75
     },
     "CO7": {
         "party": "D",
         "state": "CO",
         "name": "Ed Perlmutter",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "7"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "7",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CT1": {
         "party": "D",
         "state": "CT",
         "name": "John Larson",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CT2": {
         "party": "D",
         "state": "CT",
         "name": "Joe Courtney",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "2",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CT3": {
         "party": "D",
         "state": "CT",
         "name": "Rosa DeLauro",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "3",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CT4": {
         "party": "D",
         "state": "CT",
         "name": "Jim Himes",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "4",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "CT5": {
         "party": "D",
         "state": "CT",
         "name": "Elizabeth Esty",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "5",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "FL1": {
         "party": "R",
         "state": "FL",
         "name": "Matt Gaetz",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "FL2": {
         "party": "R",
         "state": "FL",
         "name": "Neal Dunn",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "FL3": {
         "party": "R",
         "state": "FL",
         "name": "Ted Yoho",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "FL4": {
         "party": "R",
         "state": "FL",
         "name": "John Rutherford",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "FL5": {
         "party": "D",
         "state": "FL",
         "name": "Al Lawson",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "5",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "FL6": {
         "party": "R",
         "state": "FL",
         "name": "Ron DeSantis",
-        "incumbent": "No",
-        "sabato_rank": "6",
-        "district": "6"
+        "incumbent": false,
+        "sabato_rank": 6.0,
+        "district": "6",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "FL7": {
         "party": "D",
         "state": "FL",
         "name": "Stephanie Murphy",
-        "incumbent": "Yes",
-        "sabato_rank": "3",
+        "incumbent": true,
+        "sabato_rank": 3.0,
         "district": "7",
-        "cook_rank": "2"
+        "cook_rank": 2.0,
+        "rothenberg_rank": 2.5
     },
     "FL8": {
         "party": "R",
         "state": "FL",
         "name": "Bill Posey",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "8",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "FL9": {
         "party": "D",
         "state": "FL",
         "name": "Darren Soto",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "9"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "9",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "FL10": {
         "party": "D",
         "state": "FL",
         "name": "Val Demings",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "10"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "10",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "FL11": {
         "party": "R",
         "state": "FL",
         "name": "Rich Nugent",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "11"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "11",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "FL12": {
         "party": "R",
         "state": "FL",
         "name": "Gus Bilirakis",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "12"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "12",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "FL13": {
         "party": "D",
         "state": "FL",
         "name": "Charlie Crist",
-        "incumbent": "Yes",
-        "sabato_rank": "2",
+        "incumbent": true,
+        "sabato_rank": 2.0,
         "district": "13",
-        "cook_rank": "2",
-        "rothenberg_rank": "1.75"
+        "cook_rank": 2.0,
+        "rothenberg_rank": 1.75
     },
     "FL14": {
         "party": "D",
         "state": "FL",
         "name": "Kathy Castor",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "14"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "14",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "FL15": {
         "party": "R",
         "state": "FL",
         "name": "Dennis Ross",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "15"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "15",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "FL16": {
         "party": "R",
         "state": "FL",
         "name": "Vern Buchanan",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
+        "incumbent": true,
+        "sabato_rank": 7.0,
         "district": "16",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "FL17": {
         "party": "R",
         "state": "FL",
         "name": "Tom Rooney",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "17"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "17",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "FL18": {
         "party": "R",
         "state": "FL",
         "name": "Brian Mast",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "18",
-        "cook_rank": "5"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 7.0
     },
     "FL19": {
         "party": "R",
         "state": "FL",
         "name": "Francis Rooney",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "19"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "19",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "FL20": {
         "party": "D",
         "state": "FL",
         "name": "Alcee Hastings",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "20"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "20",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "FL21": {
         "party": "D",
         "state": "FL",
         "name": "Lois Frankel",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "21"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "21",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "FL22": {
         "party": "D",
         "state": "FL",
         "name": "Ted Deutch",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "22"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "22",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "FL23": {
         "party": "D",
         "state": "FL",
         "name": "Debbie W. Schultz",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "23"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "23",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "FL24": {
         "party": "D",
         "state": "FL",
         "name": "Frederica Wilson",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "24"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "24",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "FL25": {
         "party": "R",
         "state": "FL",
         "name": "Mario Diaz-Balart",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "25"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "25",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "FL26": {
         "party": "R",
         "state": "FL",
         "name": "Carlos Curbelo",
-        "incumbent": "Yes",
-        "sabato_rank": "4",
+        "incumbent": true,
+        "sabato_rank": 4.0,
         "district": "26",
-        "cook_rank": "4",
-        "rothenberg_rank": "4.75"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.75
     },
     "FL27": {
         "party": "R",
         "state": "FL",
         "name": "Ileana Ros-Lehtinen",
-        "incumbent": "No",
-        "sabato_rank": "3",
+        "incumbent": false,
+        "sabato_rank": 3.0,
         "district": "27",
-        "cook_rank": "3",
-        "rothenberg_rank": "2.5"
+        "cook_rank": 3.0,
+        "rothenberg_rank": 2.5
     },
     "GA1": {
         "party": "R",
         "state": "GA",
         "name": "Buddy Carter",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "GA2": {
         "party": "D",
         "state": "GA",
         "name": "Sanford Bishop",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "2",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "GA3": {
         "party": "R",
         "state": "GA",
         "name": "Drew Ferguson",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "GA4": {
         "party": "D",
         "state": "GA",
         "name": "Hank Johnson",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "4",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "GA5": {
         "party": "D",
         "state": "GA",
         "name": "John Lewis",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "5",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "GA6": {
         "party": "R",
         "state": "GA",
         "name": "Karen Handel",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "6",
-        "cook_rank": "5",
-        "rothenberg_rank": "6.25"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 6.25
     },
     "GA7": {
         "party": "R",
         "state": "GA",
         "name": "Rob Woodall",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
+        "incumbent": true,
+        "sabato_rank": 7.0,
         "district": "7",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "GA8": {
         "party": "R",
         "state": "GA",
         "name": "Austin Scott",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "8",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "GA9": {
         "party": "R",
         "state": "GA",
         "name": "Doug Collins",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "9"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "9",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "GA10": {
         "party": "R",
         "state": "GA",
         "name": "Jodi Hice",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "10"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "10",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "GA11": {
         "party": "R",
         "state": "GA",
         "name": "Barry Loudermilk",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "11"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "11",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "GA12": {
         "party": "R",
         "state": "GA",
         "name": "Rick Allen",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "12"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "12",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "GA13": {
         "party": "D",
         "state": "GA",
         "name": "David Scott",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "13"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "13",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "GA14": {
         "party": "R",
         "state": "GA",
         "name": "Tom Graves",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "14"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "14",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "HI1": {
         "party": "D",
         "state": "HI",
         "name": "Colleen Hanabusa",
-        "incumbent": "No",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": false,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "HI2": {
         "party": "D",
         "state": "HI",
         "name": "Tulsi Gabbard",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "2",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "ID1": {
         "party": "R",
         "state": "ID",
         "name": "Ra\u00c3\u00bal Labrador",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "ID2": {
         "party": "R",
         "state": "ID",
         "name": "Mike Simpson",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "IL1": {
         "party": "D",
         "state": "IL",
         "name": "Bobby Rush",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "IL2": {
         "party": "D",
         "state": "IL",
         "name": "Robin Kelly",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "2",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "IL3": {
         "party": "D",
         "state": "IL",
         "name": "Dan Lipinski",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "3",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "IL4": {
         "party": "D",
         "state": "IL",
         "name": "Luis Gutierrez",
-        "incumbent": "No",
-        "sabato_rank": "1",
-        "district": "4"
+        "incumbent": false,
+        "sabato_rank": 1.0,
+        "district": "4",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "IL5": {
         "party": "D",
         "state": "IL",
         "name": "Mike Quigley",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "5",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "IL6": {
         "party": "R",
         "state": "IL",
         "name": "Peter Roskam",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "6",
-        "cook_rank": "4"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 5.5
     },
     "IL7": {
         "party": "D",
         "state": "IL",
         "name": "Danny Davis",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "7"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "7",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "IL8": {
         "party": "D",
         "state": "IL",
         "name": "Raja Krishnamoorthi",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "8",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "IL9": {
         "party": "D",
         "state": "IL",
         "name": "Jan Schakowsky",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "9"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "9",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "IL10": {
         "party": "D",
         "state": "IL",
         "name": "Brad Schneider",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "10"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "10",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "IL11": {
         "party": "D",
         "state": "IL",
         "name": "Bill Foster",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "11"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "11",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "IL12": {
         "party": "R",
         "state": "IL",
         "name": "Mike Bost",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "12",
-        "cook_rank": "4",
-        "rothenberg_rank": "5.5"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 5.5
     },
     "IL13": {
         "party": "R",
         "state": "IL",
         "name": "Rodney Davis",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "13",
-        "cook_rank": "6",
-        "rothenberg_rank": "6.25"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 6.25
     },
     "IL14": {
         "party": "R",
         "state": "IL",
         "name": "Randy Hultgren",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "14",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "IL15": {
         "party": "R",
         "state": "IL",
         "name": "John Shimkus",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "15"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "15",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "IL16": {
         "party": "R",
         "state": "IL",
         "name": "Adam Kinzinger",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "16"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "16",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "IL17": {
         "party": "D",
         "state": "IL",
         "name": "Cheri Bustos",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "17"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "17",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "IL18": {
         "party": "R",
         "state": "IL",
         "name": "Darin LaHood",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "18"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "18",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "IN1": {
         "party": "D",
         "state": "IN",
         "name": "Pete Visclosky",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "IN2": {
         "party": "R",
         "state": "IN",
         "name": "Jackie Walorski",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
+        "incumbent": true,
+        "sabato_rank": 7.0,
         "district": "2",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "IN3": {
         "party": "R",
         "state": "IN",
         "name": "Jim Banks",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "IN4": {
         "party": "R",
         "state": "IN",
         "name": "Todd Rokita",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "IN5": {
         "party": "R",
         "state": "IN",
         "name": "Susan Brooks",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "5",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "IN6": {
         "party": "R",
         "state": "IN",
         "name": "Luke Messer",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "6"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "6",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "IN7": {
         "party": "D",
         "state": "IN",
         "name": "Andre Carson",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "7"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "7",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "IN8": {
         "party": "R",
         "state": "IN",
         "name": "Larry Bucshon",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "8",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "IN9": {
         "party": "R",
         "state": "IN",
         "name": "Trey Hollingsworth",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "9"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "9",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "IA1": {
         "party": "R",
         "state": "IA",
         "name": "Rod Blum",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "1",
-        "cook_rank": "4",
-        "rothenberg_rank": "4.75"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.75
     },
     "IA2": {
         "party": "D",
         "state": "IA",
         "name": "Dave Loebsack",
-        "incumbent": "Yes",
-        "sabato_rank": "2",
+        "incumbent": true,
+        "sabato_rank": 2.0,
         "district": "2",
-        "cook_rank": "2"
+        "cook_rank": 2.0,
+        "rothenberg_rank": 1.0
     },
     "IA3": {
         "party": "R",
         "state": "IA",
         "name": "David Young",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "3",
-        "cook_rank": "5",
-        "rothenberg_rank": "6.25"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 6.25
     },
     "IA4": {
         "party": "R",
         "state": "IA",
         "name": "Steve King",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "KS1": {
         "party": "R",
         "state": "KS",
         "name": "Roger Marshall",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "KS2": {
         "party": "R",
         "state": "KS",
         "name": "Lynn Jenkins",
-        "incumbent": "No",
-        "sabato_rank": "5",
+        "incumbent": false,
+        "sabato_rank": 5.0,
         "district": "2",
-        "cook_rank": "5",
-        "rothenberg_rank": "5.5"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 5.5
     },
     "KS3": {
         "party": "R",
         "state": "KS",
         "name": "Kevin Yoder",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "3",
-        "cook_rank": "5"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 5.5
     },
     "KS4": {
         "party": "R",
         "state": "KS",
         "name": "Estes Ro",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "KY1": {
         "party": "R",
         "state": "KY",
         "name": "James Comer",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "KY2": {
         "party": "R",
         "state": "KY",
         "name": "Brett Guthrie",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "KY3": {
         "party": "D",
         "state": "KY",
         "name": "John Yarmuth",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "3",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "KY4": {
         "party": "R",
         "state": "KY",
         "name": "Thomas Massie",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "KY5": {
         "party": "R",
         "state": "KY",
         "name": "Hal Rogers",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "5",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "KY6": {
         "party": "R",
         "state": "KY",
         "name": "Andy Barr",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "6",
-        "cook_rank": "5",
-        "rothenberg_rank": "5.5"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 5.5
     },
     "LA1": {
         "party": "R",
         "state": "LA",
         "name": "Steve Scalise",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "LA2": {
         "party": "D",
         "state": "LA",
         "name": "Cedric Richmond",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "2",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "LA3": {
         "party": "R",
         "state": "LA",
         "name": "Clay Higgins",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "LA4": {
         "party": "R",
         "state": "LA",
         "name": "Mike Johnson",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "LA5": {
         "party": "R",
         "state": "LA",
         "name": "Ralph Abraham",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "5",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "LA6": {
         "party": "R",
         "state": "LA",
         "name": "Garret Graves",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "6"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "6",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "ME1": {
         "party": "D",
         "state": "ME",
         "name": "Chellie Pingree",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "ME2": {
         "party": "R",
         "state": "ME",
         "name": "Bruce Poliquin",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "2",
-        "cook_rank": "5",
-        "rothenberg_rank": "6.25"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 6.25
     },
     "MD1": {
         "party": "R",
         "state": "MD",
         "name": "Andy Harris",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "MD2": {
         "party": "D",
         "state": "MD",
         "name": "Dutch Ruppersberger",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "2",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MD3": {
         "party": "D",
         "state": "MD",
         "name": "John Sarbanes",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "3",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MD4": {
         "party": "D",
         "state": "MD",
         "name": "Anthony Brown",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "4",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MD5": {
         "party": "D",
         "state": "MD",
         "name": "Steny Hoyer",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "5",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MD6": {
         "party": "D",
         "state": "MD",
         "name": "John Delaney",
-        "incumbent": "No",
-        "sabato_rank": "1",
-        "district": "6"
+        "incumbent": false,
+        "sabato_rank": 1.0,
+        "district": "6",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MD7": {
         "party": "D",
         "state": "MD",
         "name": "Elijah Cummings",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "7"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "7",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MD8": {
         "party": "D",
         "state": "MD",
         "name": "Jamie Raskin",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "8",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MA1": {
         "party": "D",
         "state": "MA",
         "name": "Richard Neal",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MA2": {
         "party": "D",
         "state": "MA",
         "name": "Jim McGovern",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "2",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MA3": {
         "party": "D",
         "state": "MA",
         "name": "Niki Tsongas",
-        "incumbent": "No",
-        "sabato_rank": "1",
-        "district": "3"
+        "incumbent": false,
+        "sabato_rank": 1.0,
+        "district": "3",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MA4": {
         "party": "D",
         "state": "MA",
         "name": "Joe Kennedy",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "4",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MA5": {
         "party": "D",
         "state": "MA",
         "name": "Katherine Clark",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "5",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MA6": {
         "party": "D",
         "state": "MA",
         "name": "Seth Moulton",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "6"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "6",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MA7": {
         "party": "D",
         "state": "MA",
         "name": "Mike Capuano",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "7"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "7",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MA8": {
         "party": "D",
         "state": "MA",
         "name": "Stephen Lynch",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "8",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MA9": {
         "party": "D",
         "state": "MA",
         "name": "Bill Keating",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "9"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "9",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MI1": {
         "party": "R",
         "state": "MI",
         "name": "Jack Bergman",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "MI2": {
         "party": "R",
         "state": "MI",
         "name": "Bill Huizenga",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "MI3": {
         "party": "R",
         "state": "MI",
         "name": "Justin Amash",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "MI4": {
         "party": "R",
         "state": "MI",
         "name": "John Moolenaar",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "MI5": {
         "party": "D",
         "state": "MI",
         "name": "Dan Kildee",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "5",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MI6": {
         "party": "R",
         "state": "MI",
         "name": "Fred Upton",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
+        "incumbent": true,
+        "sabato_rank": 7.0,
         "district": "6",
-        "cook_rank": "6",
-        "rothenberg_rank": "6.25"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 6.25
     },
     "MI7": {
         "party": "R",
         "state": "MI",
         "name": "Tim Walberg",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
+        "incumbent": true,
+        "sabato_rank": 7.0,
         "district": "7",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "MI8": {
         "party": "R",
         "state": "MI",
         "name": "Mike Bishop",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "8",
-        "cook_rank": "5",
-        "rothenberg_rank": "5.5"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 5.5
     },
     "MI9": {
         "party": "D",
         "state": "MI",
         "name": "Sander Levin",
-        "incumbent": "No",
-        "sabato_rank": "1",
-        "district": "9"
+        "incumbent": false,
+        "sabato_rank": 1.0,
+        "district": "9",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MI10": {
         "party": "R",
         "state": "MI",
         "name": "Paul Mitchell",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "10"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "10",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "MI11": {
         "party": "R",
         "state": "MI",
         "name": "Dave Trott",
-        "incumbent": "No",
-        "sabato_rank": "4",
+        "incumbent": false,
+        "sabato_rank": 4.0,
         "district": "11",
-        "cook_rank": "4",
-        "rothenberg_rank": "4.75"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.75
     },
     "MI12": {
         "party": "D",
         "state": "MI",
         "name": "Debbie Dingell",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "12"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "12",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MI13": {
         "party": "D",
         "state": "MI",
         "name": "VACANT (Concurrent special 11/6/18)",
-        "incumbent": "No",
-        "sabato_rank": "1",
-        "district": "13"
+        "incumbent": false,
+        "sabato_rank": 1.0,
+        "district": "13",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MI14": {
         "party": "D",
         "state": "MI",
         "name": "Brenda Lawrence",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "14"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "14",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MN1": {
         "party": "D",
         "state": "MN",
         "name": "Tim Walz",
-        "incumbent": "No",
-        "sabato_rank": "4",
+        "incumbent": false,
+        "sabato_rank": 4.0,
         "district": "1",
-        "cook_rank": "4",
-        "rothenberg_rank": "4"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.0
     },
     "MN2": {
         "party": "R",
         "state": "MN",
         "name": "Jason Lewis",
-        "incumbent": "Yes",
-        "sabato_rank": "4",
+        "incumbent": true,
+        "sabato_rank": 4.0,
         "district": "2",
-        "cook_rank": "4"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.0
     },
     "MN3": {
         "party": "R",
         "state": "MN",
         "name": "Erik Paulsen",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "3",
-        "cook_rank": "4",
-        "rothenberg_rank": "5.5"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 5.5
     },
     "MN4": {
         "party": "D",
         "state": "MN",
         "name": "Betty McCollum",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "4",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MN5": {
         "party": "D",
         "state": "MN",
         "name": "Keith Ellison",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "5",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MN6": {
         "party": "R",
         "state": "MN",
         "name": "Tom Emmer",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "6"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "6",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "MN7": {
         "party": "D",
         "state": "MN",
         "name": "Collin Peterson",
-        "incumbent": "Yes",
-        "sabato_rank": "2",
+        "incumbent": true,
+        "sabato_rank": 2.0,
         "district": "7",
-        "cook_rank": "2",
-        "rothenberg_rank": "2.5"
+        "cook_rank": 2.0,
+        "rothenberg_rank": 2.5
     },
     "MN8": {
         "party": "D",
         "state": "MN",
         "name": "Rick Nolan",
-        "incumbent": "No",
-        "sabato_rank": "4",
+        "incumbent": false,
+        "sabato_rank": 4.0,
         "district": "8",
-        "cook_rank": "4"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.0
     },
     "MS1": {
         "party": "R",
         "state": "MS",
         "name": "Trent Kelly",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "MS2": {
         "party": "D",
         "state": "MS",
         "name": "Bennie Thompson",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "2",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MS3": {
         "party": "R",
         "state": "MS",
         "name": "Gregg Harper",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "MS4": {
         "party": "R",
         "state": "MS",
         "name": "Steven Palazzo",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "MO1": {
         "party": "D",
         "state": "MO",
         "name": "Lacy Clay",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MO2": {
         "party": "R",
         "state": "MO",
         "name": "Ann Wagner",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
+        "incumbent": true,
+        "sabato_rank": 7.0,
         "district": "2",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "MO3": {
         "party": "R",
         "state": "MO",
         "name": "Blaine Luetkemeyer",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "MO4": {
         "party": "R",
         "state": "MO",
         "name": "Vicki Hartzler",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "MO5": {
         "party": "D",
         "state": "MO",
         "name": "Emanuel Cleaver",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "5",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "MO6": {
         "party": "R",
         "state": "MO",
         "name": "Sam Graves",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "6"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "6",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "MO7": {
         "party": "R",
         "state": "MO",
         "name": "Billy Long",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "7"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "7",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "MO8": {
         "party": "R",
         "state": "MO",
         "name": "Jason Smith",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "8",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NE1": {
         "party": "R",
         "state": "NE",
         "name": "Jeff Fortenberry",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NE2": {
         "party": "R",
         "state": "NE",
         "name": "Don Bacon",
-        "incumbent": "Yes",
-        "sabato_rank": "4",
+        "incumbent": true,
+        "sabato_rank": 4.0,
         "district": "2",
-        "cook_rank": "4",
-        "rothenberg_rank": "4.75"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.75
     },
     "NE3": {
         "party": "R",
         "state": "NE",
         "name": "Adrian Smith",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NV1": {
         "party": "D",
         "state": "NV",
         "name": "Dina Titus",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NV2": {
         "party": "R",
         "state": "NV",
         "name": "Mark Amodei",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NV3": {
         "party": "D",
         "state": "NV",
         "name": "Jacky Rosen",
-        "incumbent": "No",
-        "sabato_rank": "3",
+        "incumbent": false,
+        "sabato_rank": 3.0,
         "district": "3",
-        "cook_rank": "4",
-        "rothenberg_rank": "3.25"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 3.25
     },
     "NV4": {
         "party": "D",
         "state": "NV",
         "name": "Ruben Kihuen",
-        "incumbent": "No",
-        "sabato_rank": "3",
+        "incumbent": false,
+        "sabato_rank": 3.0,
         "district": "4",
-        "cook_rank": "3",
-        "rothenberg_rank": "1.75"
+        "cook_rank": 3.0,
+        "rothenberg_rank": 1.75
     },
     "NH1": {
         "party": "D",
         "state": "NH",
         "name": "Carol Shea-Porter",
-        "incumbent": "No",
-        "sabato_rank": "4",
+        "incumbent": false,
+        "sabato_rank": 4.0,
         "district": "1",
-        "cook_rank": "3",
-        "rothenberg_rank": "3.25"
+        "cook_rank": 3.0,
+        "rothenberg_rank": 3.25
     },
     "NH2": {
         "party": "D",
         "state": "NH",
         "name": "Annie Kuster",
-        "incumbent": "Yes",
-        "sabato_rank": "2",
+        "incumbent": true,
+        "sabato_rank": 2.0,
         "district": "2",
-        "cook_rank": "2"
+        "cook_rank": 2.0,
+        "rothenberg_rank": 1.0
     },
     "NJ1": {
         "party": "D",
         "state": "NJ",
         "name": "Donald Norcross",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NJ2": {
         "party": "R",
         "state": "NJ",
         "name": "Frank LoBiondo",
-        "incumbent": "No",
-        "sabato_rank": "3",
+        "incumbent": false,
+        "sabato_rank": 3.0,
         "district": "2",
-        "cook_rank": "3"
+        "cook_rank": 3.0,
+        "rothenberg_rank": 4.0
     },
     "NJ3": {
         "party": "R",
         "state": "NJ",
         "name": "Tom MacArthur",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "3",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "NJ4": {
         "party": "R",
         "state": "NJ",
         "name": "Chris Smith",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NJ5": {
         "party": "D",
         "state": "NJ",
         "name": "Josh Gottheimer",
-        "incumbent": "Yes",
-        "sabato_rank": "2",
+        "incumbent": true,
+        "sabato_rank": 2.0,
         "district": "5",
-        "cook_rank": "3",
-        "rothenberg_rank": "3.25"
+        "cook_rank": 3.0,
+        "rothenberg_rank": 3.25
     },
     "NJ6": {
         "party": "D",
         "state": "NJ",
         "name": "Frank Pallone",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "6"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "6",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NJ7": {
         "party": "R",
         "state": "NJ",
         "name": "Leonard Lance",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "7",
-        "cook_rank": "5",
-        "rothenberg_rank": "5.5"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 5.5
     },
     "NJ8": {
         "party": "D",
         "state": "NJ",
         "name": "Albio Sires",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "8",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NJ9": {
         "party": "D",
         "state": "NJ",
         "name": "Bill Pascrell",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "9"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "9",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NJ10": {
         "party": "D",
         "state": "NJ",
         "name": "Donald Payne",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "10"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "10",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NJ11": {
         "party": "R",
         "state": "NJ",
         "name": "Rodney Frelinghuysen",
-        "incumbent": "No",
-        "sabato_rank": "4",
+        "incumbent": false,
+        "sabato_rank": 4.0,
         "district": "11",
-        "cook_rank": "4",
-        "rothenberg_rank": "4"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.0
     },
     "NJ12": {
         "party": "D",
         "state": "NJ",
         "name": "Bonnie W. Coleman",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "12"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "12",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NM1": {
         "party": "D",
         "state": "NM",
         "name": "Michelle L. Grisham",
-        "incumbent": "No",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": false,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NM2": {
         "party": "R",
         "state": "NM",
         "name": "Steve Pearce",
-        "incumbent": "No",
-        "sabato_rank": "6",
+        "incumbent": false,
+        "sabato_rank": 6.0,
         "district": "2",
-        "cook_rank": "6",
-        "rothenberg_rank": "6.25"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 6.25
     },
     "NM3": {
         "party": "D",
         "state": "NM",
         "name": "Ben Lujan",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "3",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY1": {
         "party": "R",
         "state": "NY",
         "name": "Lee Zeldin",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "1",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "NY2": {
         "party": "R",
         "state": "NY",
         "name": "Peter King",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NY3": {
         "party": "D",
         "state": "NY",
         "name": "Tom Suozzi",
-        "incumbent": "Yes",
-        "sabato_rank": "2",
+        "incumbent": true,
+        "sabato_rank": 2.0,
         "district": "3",
-        "cook_rank": "2"
+        "cook_rank": 2.0,
+        "rothenberg_rank": 1.0
     },
     "NY4": {
         "party": "D",
         "state": "NY",
         "name": "Kathleen Rice",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "4",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY5": {
         "party": "D",
         "state": "NY",
         "name": "Gregory Meeks",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "5",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY6": {
         "party": "D",
         "state": "NY",
         "name": "Grace Meng",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "6"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "6",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY7": {
         "party": "D",
         "state": "NY",
         "name": "Nydia Velazquez",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "7"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "7",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY8": {
         "party": "D",
         "state": "NY",
         "name": "Hakeem Jeffries",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "8",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY9": {
         "party": "D",
         "state": "NY",
         "name": "Yvette Clarke",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "9"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "9",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY10": {
         "party": "D",
         "state": "NY",
         "name": "Jerrold Nadler",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "10"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "10",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY11": {
         "party": "R",
         "state": "NY",
         "name": "Dan Donovan",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "11",
-        "cook_rank": "5",
-        "rothenberg_rank": "6.25"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 6.25
     },
     "NY12": {
         "party": "D",
         "state": "NY",
         "name": "Carolyn Maloney",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "12"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "12",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY13": {
         "party": "D",
         "state": "NY",
         "name": "Adriano Espaillat",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "13"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "13",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY14": {
         "party": "D",
         "state": "NY",
         "name": "Joe Crowley",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "14"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "14",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY15": {
         "party": "D",
         "state": "NY",
         "name": "Jose Serrano",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "15"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "15",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY16": {
         "party": "D",
         "state": "NY",
         "name": "Eliot Engel",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "16"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "16",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY17": {
         "party": "D",
         "state": "NY",
         "name": "Nita Lowey",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "17"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "17",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY18": {
         "party": "D",
         "state": "NY",
         "name": "Sean Maloney",
-        "incumbent": "Yes",
-        "sabato_rank": "2",
+        "incumbent": true,
+        "sabato_rank": 2.0,
         "district": "18",
-        "cook_rank": "2"
+        "cook_rank": 2.0,
+        "rothenberg_rank": 1.0
     },
     "NY19": {
         "party": "R",
         "state": "NY",
         "name": "John Faso",
-        "incumbent": "Yes",
-        "sabato_rank": "4",
+        "incumbent": true,
+        "sabato_rank": 4.0,
         "district": "19",
-        "cook_rank": "4",
-        "rothenberg_rank": "4.75"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.75
     },
     "NY20": {
         "party": "D",
         "state": "NY",
         "name": "Paul Tonko",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "20"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "20",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY21": {
         "party": "R",
         "state": "NY",
         "name": "Elise Stefanik",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "21"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "21",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NY22": {
         "party": "R",
         "state": "NY",
         "name": "Claudia Tenney",
-        "incumbent": "Yes",
-        "sabato_rank": "4",
+        "incumbent": true,
+        "sabato_rank": 4.0,
         "district": "22",
-        "cook_rank": "4"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.75
     },
     "NY23": {
         "party": "R",
         "state": "NY",
         "name": "Tom Reed",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
-        "district": "23"
+        "incumbent": true,
+        "sabato_rank": 6.0,
+        "district": "23",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NY24": {
         "party": "R",
         "state": "NY",
         "name": "John Katko",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "24",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 6.25
     },
     "NY25": {
         "party": "D",
         "state": "NY",
         "name": "Louise Slaughter",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "25"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "25",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY26": {
         "party": "D",
         "state": "NY",
         "name": "Brian Higgins",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "26"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "26",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NY27": {
         "party": "R",
         "state": "NY",
         "name": "Chris Collins",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "27"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "27",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NC1": {
         "party": "D",
         "state": "NC",
         "name": "G.K. Butterfield",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NC2": {
         "party": "R",
         "state": "NC",
         "name": "George Holding",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "2",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "NC3": {
         "party": "R",
         "state": "NC",
         "name": "Walter Jones",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NC4": {
         "party": "D",
         "state": "NC",
         "name": "David Price",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "4",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NC5": {
         "party": "R",
         "state": "NC",
         "name": "Virginia Foxx",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "5",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NC6": {
         "party": "R",
         "state": "NC",
         "name": "Mark Walker",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "6"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "6",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NC7": {
         "party": "R",
         "state": "NC",
         "name": "David Rouzer",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "7"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "7",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NC8": {
         "party": "R",
         "state": "NC",
         "name": "Richard Hudson",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "8",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NC9": {
         "party": "R",
         "state": "NC",
         "name": "Robert Pittenger",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "9",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 6.25
     },
     "NC10": {
         "party": "R",
         "state": "NC",
         "name": "Patrick McHenry",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "10"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "10",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NC11": {
         "party": "R",
         "state": "NC",
         "name": "Mark Meadows",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "11"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "11",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "NC12": {
         "party": "D",
         "state": "NC",
         "name": "Alma Adams",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "12"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "12",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "NC13": {
         "party": "R",
         "state": "NC",
         "name": "Ted Budd",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "13",
-        "cook_rank": "5",
-        "rothenberg_rank": "6.25"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 6.25
     },
     "OH1": {
         "party": "R",
         "state": "OH",
         "name": "Steve Chabot",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "1",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "OH2": {
         "party": "R",
         "state": "OH",
         "name": "Brad Wenstrup",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "OH3": {
         "party": "D",
         "state": "OH",
         "name": "Joyce Beatty",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "3",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "OH4": {
         "party": "R",
         "state": "OH",
         "name": "Jim Jordan",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "OH5": {
         "party": "R",
         "state": "OH",
         "name": "Bob Latta",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "5",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "OH6": {
         "party": "R",
         "state": "OH",
         "name": "Bill Johnson",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "6"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "6",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "OH7": {
         "party": "R",
         "state": "OH",
         "name": "Bob Gibbs",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "7"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "7",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "OH8": {
         "party": "R",
         "state": "OH",
         "name": "Warren Davidson",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "8",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "OH9": {
         "party": "D",
         "state": "OH",
         "name": "Marcy Kaptur",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "9"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "9",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "OH10": {
         "party": "R",
         "state": "OH",
         "name": "Michael Turner",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "10"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "10",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "OH11": {
         "party": "D",
         "state": "OH",
         "name": "Marcia Fudge",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "11"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "11",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "OH12": {
         "party": "R",
         "state": "OH",
         "name": "VACANT (Special 8/7/18)",
-        "incumbent": "NA",
-        "sabato_rank": "6",
+        "incumbent": false,
+        "sabato_rank": 6.0,
         "district": "12",
-        "cook_rank": "6",
-        "rothenberg_rank": "6.25"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 6.25
     },
     "OH13": {
         "party": "D",
         "state": "OH",
         "name": "Tim Ryan",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "13"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "13",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "OH14": {
         "party": "R",
         "state": "OH",
         "name": "David Joyce",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "14"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "14",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "OH15": {
         "party": "R",
         "state": "OH",
         "name": "Steve Stivers",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
+        "incumbent": true,
+        "sabato_rank": 7.0,
         "district": "15",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "OH16": {
         "party": "R",
         "state": "OH",
         "name": "Jim Renacci",
-        "incumbent": "No",
-        "sabato_rank": "7",
+        "incumbent": false,
+        "sabato_rank": 7.0,
         "district": "16",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "OK1": {
         "party": "R",
         "state": "OK",
         "name": "Jim Bridenstine",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "OK2": {
         "party": "R",
         "state": "OK",
         "name": "Markwayne Mullin",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "OK3": {
         "party": "R",
         "state": "OK",
         "name": "Frank Lucas",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "OK4": {
         "party": "R",
         "state": "OK",
         "name": "Tom Cole",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "OK5": {
         "party": "R",
         "state": "OK",
         "name": "Steve Russell",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "5",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "OR1": {
         "party": "D",
         "state": "OR",
         "name": "Suzanne Bonamici",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "OR2": {
         "party": "R",
         "state": "OR",
         "name": "Greg Walden",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "OR3": {
         "party": "D",
         "state": "OR",
         "name": "Earl Blumenauer",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "3",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "OR4": {
         "party": "D",
         "state": "OR",
         "name": "Peter DeFazio",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "4",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "OR5": {
         "party": "D",
         "state": "OR",
         "name": "Kurt Schrader",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "5",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "RI1": {
         "party": "D",
         "state": "RI",
         "name": "David Cicilline",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "RI2": {
         "party": "D",
         "state": "RI",
         "name": "Jim Langevin",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "2",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "SC1": {
         "party": "R",
         "state": "SC",
         "name": "Mark Sanford",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "SC2": {
         "party": "R",
         "state": "SC",
         "name": "Joe Wilson",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "SC3": {
         "party": "R",
         "state": "SC",
         "name": "Jeff Duncan",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "SC4": {
         "party": "R",
         "state": "SC",
         "name": "Trey Gowdy",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "SC5": {
         "party": "R",
         "state": "SC",
         "name": "Norman Ralp",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "5",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "SC6": {
         "party": "D",
         "state": "SC",
         "name": "Jim Clyburn",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "6"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "6",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "SC7": {
         "party": "R",
         "state": "SC",
         "name": "Tom Rice",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "7"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "7",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TN1": {
         "party": "R",
         "state": "TN",
         "name": "Phil Roe",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TN2": {
         "party": "R",
         "state": "TN",
         "name": "Jimmy Duncan",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TN3": {
         "party": "R",
         "state": "TN",
         "name": "Chuck Fleischmann",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TN4": {
         "party": "R",
         "state": "TN",
         "name": "Scott DesJarlais",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TN5": {
         "party": "D",
         "state": "TN",
         "name": "Jim Cooper",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "5",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "TN6": {
         "party": "R",
         "state": "TN",
         "name": "Diane Black",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "6"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "6",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TN7": {
         "party": "R",
         "state": "TN",
         "name": "Marsha Blackburn",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "7"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "7",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TN8": {
         "party": "R",
         "state": "TN",
         "name": "David Kustoff",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "8",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TN9": {
         "party": "D",
         "state": "TN",
         "name": "Steve Cohen",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "9"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "9",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "TX1": {
         "party": "R",
         "state": "TX",
         "name": "Louie Gohmert",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX2": {
         "party": "R",
         "state": "TX",
         "name": "Ted Poe",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX3": {
         "party": "R",
         "state": "TX",
         "name": "Sam Johnson",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX4": {
         "party": "R",
         "state": "TX",
         "name": "John Ratcliffe",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX5": {
         "party": "R",
         "state": "TX",
         "name": "Jeb Hensarling",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "5"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "5",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX6": {
         "party": "R",
         "state": "TX",
         "name": "Joe Barton",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "6"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "6",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX7": {
         "party": "R",
         "state": "TX",
         "name": "John Culberson",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "7",
-        "cook_rank": "4",
-        "rothenberg_rank": "4.75"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.75
     },
     "TX8": {
         "party": "R",
         "state": "TX",
         "name": "Kevin Brady",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "8",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX9": {
         "party": "D",
         "state": "TX",
         "name": "Al Green",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "9"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "9",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "TX10": {
         "party": "R",
         "state": "TX",
         "name": "Michael McCaul",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "10"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "10",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX11": {
         "party": "R",
         "state": "TX",
         "name": "Michael Conaway",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "11"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "11",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX12": {
         "party": "R",
         "state": "TX",
         "name": "Kay Granger",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "12"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "12",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX13": {
         "party": "R",
         "state": "TX",
         "name": "Mac Thornberry",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "13"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "13",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX14": {
         "party": "R",
         "state": "TX",
         "name": "Randy Weber",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "14"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "14",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX15": {
         "party": "D",
         "state": "TX",
         "name": "Vicente Gonzalez",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "15"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "15",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "TX16": {
         "party": "D",
         "state": "TX",
         "name": "Beto O'Rourke",
-        "incumbent": "No",
-        "sabato_rank": "1",
-        "district": "16"
+        "incumbent": false,
+        "sabato_rank": 1.0,
+        "district": "16",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "TX17": {
         "party": "R",
         "state": "TX",
         "name": "Bill Flores",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "17"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "17",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX18": {
         "party": "D",
         "state": "TX",
         "name": "Sheila Jackson-Lee",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "18"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "18",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "TX19": {
         "party": "R",
         "state": "TX",
         "name": "Jodey Arrington",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "19"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "19",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX20": {
         "party": "D",
         "state": "TX",
         "name": "Joaquin Castro",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "20"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "20",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "TX21": {
         "party": "R",
         "state": "TX",
         "name": "Lamar Smith",
-        "incumbent": "No",
-        "sabato_rank": "6",
+        "incumbent": false,
+        "sabato_rank": 6.0,
         "district": "21",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "TX22": {
         "party": "R",
         "state": "TX",
         "name": "Pete Olson",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "22"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "22",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX23": {
         "party": "R",
         "state": "TX",
         "name": "Will Hurd",
-        "incumbent": "Yes",
-        "sabato_rank": "4",
+        "incumbent": true,
+        "sabato_rank": 4.0,
         "district": "23",
-        "cook_rank": "5",
-        "rothenberg_rank": "4"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 4.0
     },
     "TX24": {
         "party": "R",
         "state": "TX",
         "name": "Kenny Marchant",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "24"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "24",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX25": {
         "party": "R",
         "state": "TX",
         "name": "Roger Williams",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "25"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "25",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX26": {
         "party": "R",
         "state": "TX",
         "name": "Michael Burgess",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "26"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "26",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX27": {
         "party": "R",
         "state": "TX",
         "name": "Blake Farenthold",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "27"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "27",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX28": {
         "party": "D",
         "state": "TX",
         "name": "Henry Cuellar",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "28"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "28",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "TX29": {
         "party": "D",
         "state": "TX",
         "name": "Gene Green",
-        "incumbent": "No",
-        "sabato_rank": "1",
-        "district": "29"
+        "incumbent": false,
+        "sabato_rank": 1.0,
+        "district": "29",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "TX30": {
         "party": "D",
         "state": "TX",
         "name": "E.B. Johnson",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "30"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "30",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "TX31": {
         "party": "R",
         "state": "TX",
         "name": "John Carter",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "31"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "31",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "TX32": {
         "party": "R",
         "state": "TX",
         "name": "Pete Sessions",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "32",
-        "cook_rank": "5",
-        "rothenberg_rank": "6.25"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 6.25
     },
     "TX33": {
         "party": "D",
         "state": "TX",
         "name": "Mark Veasey",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "33"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "33",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "TX34": {
         "party": "D",
         "state": "TX",
         "name": "Filemon Vela",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "34"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "34",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "TX35": {
         "party": "D",
         "state": "TX",
         "name": "Lloyd Doggett",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "35"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "35",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "TX36": {
         "party": "R",
         "state": "TX",
         "name": "Brian Babin",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "36"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "36",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "UT1": {
         "party": "R",
         "state": "UT",
         "name": "Rob Bishop",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "UT2": {
         "party": "R",
         "state": "UT",
         "name": "Chris Stewart",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "UT3": {
         "party": "R",
         "state": "UT",
         "name": "Jason Chaffetz",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "UT4": {
         "party": "R",
         "state": "UT",
         "name": "Mia Love",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "4",
-        "cook_rank": "5",
-        "rothenberg_rank": "5.5"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 5.5
     },
     "VA1": {
         "party": "R",
         "state": "VA",
         "name": "Rob Wittman",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "VA2": {
         "party": "R",
         "state": "VA",
         "name": "Scott Taylor",
-        "incumbent": "Yes",
-        "sabato_rank": "5",
+        "incumbent": true,
+        "sabato_rank": 5.0,
         "district": "2",
-        "cook_rank": "5",
-        "rothenberg_rank": "6.25"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 6.25
     },
     "VA3": {
         "party": "D",
         "state": "VA",
         "name": "Bobby Scott",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "3",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "VA4": {
         "party": "D",
         "state": "VA",
         "name": "Donald McEachin",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "4",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "VA5": {
         "party": "R",
         "state": "VA",
         "name": "Tom Garrett",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "5",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 6.25
     },
     "VA6": {
         "party": "R",
         "state": "VA",
         "name": "Bob Goodlatte",
-        "incumbent": "No",
-        "sabato_rank": "7",
-        "district": "6"
+        "incumbent": false,
+        "sabato_rank": 7.0,
+        "district": "6",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "VA7": {
         "party": "R",
         "state": "VA",
         "name": "Dave Brat",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "7",
-        "cook_rank": "5"
+        "cook_rank": 5.0,
+        "rothenberg_rank": 6.25
     },
     "VA8": {
         "party": "D",
         "state": "VA",
         "name": "Don Beyer",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "8",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "VA9": {
         "party": "R",
         "state": "VA",
         "name": "Morgan Griffith",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "9"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "9",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "VA10": {
         "party": "R",
         "state": "VA",
         "name": "Barbara Comstock",
-        "incumbent": "Yes",
-        "sabato_rank": "4",
+        "incumbent": true,
+        "sabato_rank": 4.0,
         "district": "10",
-        "cook_rank": "4",
-        "rothenberg_rank": "4"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.0
     },
     "VA11": {
         "party": "D",
         "state": "VA",
         "name": "Gerry Connolly",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "11"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "11",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "WA1": {
         "party": "D",
         "state": "WA",
         "name": "Suzan DelBene",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "1",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "WA2": {
         "party": "D",
         "state": "WA",
         "name": "Rick Larsen",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "2",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "WA3": {
         "party": "R",
         "state": "WA",
         "name": "Beutler, Jaime Herrer",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "3"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "WA4": {
         "party": "R",
         "state": "WA",
         "name": "Dan Newhouse",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "4",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "WA5": {
         "party": "R",
         "state": "WA",
         "name": "Rodgers, Cathy McMorris",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "5",
-        "cook_rank": "6",
-        "rothenberg_rank": "6.25"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 6.25
     },
     "WA6": {
         "party": "D",
         "state": "WA",
         "name": "Derek Kilmer",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "6"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "6",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "WA7": {
         "party": "D",
         "state": "WA",
         "name": "Pramila Jayapal",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "7"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "7",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "WA8": {
         "party": "R",
         "state": "WA",
         "name": "Dave Reichert",
-        "incumbent": "No",
-        "sabato_rank": "4",
+        "incumbent": false,
+        "sabato_rank": 4.0,
         "district": "8",
-        "cook_rank": "4",
-        "rothenberg_rank": "4"
+        "cook_rank": 4.0,
+        "rothenberg_rank": 4.0
     },
     "WA9": {
         "party": "D",
         "state": "WA",
         "name": "Adam Smith",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "9"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "9",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "WA10": {
         "party": "D",
         "state": "WA",
         "name": "Denny Heck",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "10"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "10",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "WV1": {
         "party": "R",
         "state": "WV",
         "name": "David McKinley",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "WV2": {
         "party": "R",
         "state": "WV",
         "name": "Alex Mooney",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "2",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "WV3": {
         "party": "R",
         "state": "WV",
         "name": "Evan Jenkins",
-        "incumbent": "No",
-        "sabato_rank": "6",
-        "district": "3"
+        "incumbent": false,
+        "sabato_rank": 6.0,
+        "district": "3",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "WI1": {
         "party": "R",
         "state": "WI",
         "name": "Paul Ryan",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "1"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "1",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "WI2": {
         "party": "D",
         "state": "WI",
         "name": "Mark Pocan",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "2"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "2",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "WI3": {
         "party": "D",
         "state": "WI",
         "name": "Ron Kind",
-        "incumbent": "Yes",
-        "sabato_rank": "2",
+        "incumbent": true,
+        "sabato_rank": 2.0,
         "district": "3",
-        "cook_rank": "2"
+        "cook_rank": 2.0,
+        "rothenberg_rank": 1.0
     },
     "WI4": {
         "party": "D",
         "state": "WI",
         "name": "Gwen Moore",
-        "incumbent": "Yes",
-        "sabato_rank": "1",
-        "district": "4"
+        "incumbent": true,
+        "sabato_rank": 1.0,
+        "district": "4",
+        "cook_rank": 1.0,
+        "rothenberg_rank": 1.0
     },
     "WI5": {
         "party": "R",
         "state": "WI",
         "name": "Jim Sensenbrenner",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "5"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "5",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "WI6": {
         "party": "R",
         "state": "WI",
         "name": "Glenn Grothman",
-        "incumbent": "Yes",
-        "sabato_rank": "6",
+        "incumbent": true,
+        "sabato_rank": 6.0,
         "district": "6",
-        "cook_rank": "6"
+        "cook_rank": 6.0,
+        "rothenberg_rank": 7.0
     },
     "WI7": {
         "party": "R",
         "state": "WI",
         "name": "Sean Duffy",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "7"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "7",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "WI8": {
         "party": "R",
         "state": "WI",
         "name": "Mike Gallagher",
-        "incumbent": "Yes",
-        "sabato_rank": "7",
-        "district": "8"
+        "incumbent": true,
+        "sabato_rank": 7.0,
+        "district": "8",
+        "cook_rank": 7.0,
+        "rothenberg_rank": 7.0
     },
     "PA7": {
         "party": "R",
         "state": "PA",
         "name": "Open",
-        "cook_rank": "2",
-        "district": "7"
+        "cook_rank": 2.0,
+        "district": "7",
+        "rothenberg_rank": 3.25
     },
     "PA17": {
         "party": "D",
         "state": "PA",
         "name": "Cartwright",
-        "cook_rank": "2",
-        "district": "17"
+        "cook_rank": 2.0,
+        "district": "17",
+        "rothenberg_rank": 4.75
     },
     "PA15": {
         "party": "R",
         "state": "PA",
         "name": "Open",
-        "cook_rank": "3",
+        "cook_rank": 3.0,
         "district": "15"
     },
     "PA6": {
         "party": "R",
         "state": "PA",
         "name": "Costello",
-        "cook_rank": "4",
+        "cook_rank": 4.0,
         "district": "6",
-        "rothenberg_rank": "3.25"
+        "rothenberg_rank": 3.25
     },
     "PA8": {
         "party": "R",
         "state": "PA",
         "name": "Fitzpatrick",
-        "cook_rank": "5",
-        "district": "8"
+        "cook_rank": 5.0,
+        "district": "8",
+        "rothenberg_rank": 1.75
     },
     "PA12": {
         "party": "R",
         "state": "PA",
         "name": "Rothfus",
-        "cook_rank": "5",
+        "cook_rank": 5.0,
         "district": "12"
     },
     "PA18": {
         "party": "R",
         "state": "PA",
         "name": "Vacant",
-        "cook_rank": "5",
+        "cook_rank": 5.0,
         "district": "18"
     },
     "PA3": {
         "party": "R",
         "state": "PA",
         "name": "Kelly",
-        "cook_rank": "6",
+        "cook_rank": 6.0,
         "district": "3"
     },
     "PA4": {
         "party": "R",
         "state": "PA",
         "name": "Perry",
-        "cook_rank": "6",
+        "cook_rank": 6.0,
         "district": "4"
     },
     "PA5": {
         "party": "R",
         "state": "PA",
         "name": "Meehan",
-        "rothenberg_rank": "1.75",
+        "rothenberg_rank": 1.75,
         "district": "5"
     },
     "PA1": {
         "party": "R",
         "state": "PA",
         "name": "Fitzpatrick",
-        "rothenberg_rank": "4.75",
+        "rothenberg_rank": 4.75,
         "district": "1"
     },
     "PA10": {
         "party": "R",
         "state": "PA",
         "name": "Perry",
-        "rothenberg_rank": "6.25",
+        "rothenberg_rank": 6.25,
         "district": "10"
     }
 }

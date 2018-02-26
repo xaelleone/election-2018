@@ -17,12 +17,11 @@ def scrape_states(section, state_list):
 def scrape_section(header, state_list, subsoup):
     output = []
     for state in state_list:
-        results = subsoup.find('td', text=state)
-        if results is None:
-            continue
-        contents = [x.text for x in results.parent.findChildren()]
-        contents[-1] = header
-        output.append(contents)
+        results = subsoup.find_all('td', text=state)
+        for res in results:
+            contents = [x.text for x in res.parent.findChildren()]
+            contents[-1] = header
+            output.append(contents)
     return output
 
 with open('state_abbrs.txt') as fin:
@@ -41,7 +40,7 @@ def scrape(url_ext, process_output):
             continue
         output.extend(scrape_section(header.text, state_abbrs, s))
 
-    # print(output)
+    print(len(output))
     output = [process_output(x) for x in output]
     output = [x + [CATEGORY_MAPPINGS[x[-1]]] for x in output]
     with open('rothenberg_' + url_ext + '.csv', 'w+') as my_csv:
@@ -96,7 +95,7 @@ def scrape_governors():
         return x[:2] + x[-3:]
     scrape('governor', process)
 
-# scrape_house()
-scrape_senate()
+scrape_house()
+# scrape_senate()
 # scrape_governors()
 
