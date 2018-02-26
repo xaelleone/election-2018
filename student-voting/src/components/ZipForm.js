@@ -72,33 +72,39 @@ class ZipForm extends Component {
     }
   }
 
-  async resolveAddresses (inputObj) {
-    if (!inputObj.address) {
-      const latLong = await geoFind(this.geo, inputObj.address);
-      if (latLong.zip !== inputObj.zip) {
-        window.alert('address not in ' + inputObj.name + ' ZIP');
-        return null;
-      }
-      const district = await this.findDistrict(latLong, inputObj.zip);
-      inputObj.state = district.state_abbr;
-      inputObj.cd = district.cd;
+  async resolveAddress(inputObj) {
+    if (inputObj.address === '') {
+      window.alert('enter address!')
+      return null;
     }
+    const latLong = await geoFind(this.geo, inputObj.address);
+    if (latLong.zip !== inputObj.zip) {
+      window.alert('address not in ' + inputObj.name + ' ZIP');
+      return null;
+    }
+    const district = await this.findDistrict(latLong, inputObj.zip);
+    inputObj.state = district.state_abbr;
+    inputObj.district = district.cd;
+
+    inputObj.queryAddress = false;
     return inputObj;
   }
 
-  // TODO: work in progress.
   async submitAddressesClicked() {
     const { inputs } = this.state;
-    const updatedInputs = inputs.map(val => this.resolveAddresses(val));
+    const updatedInputs = inputs.map(val => val);
+    for (let ind = 0; ind < updatedInputs.length; ind++) {
+      if (updatedInputs[ind].queryAddress) {
+        updatedInputs[ind] = await this.resolveAddress(inputs[ind]);
+      }
+    }
     if (!updatedInputs.every(val => val)) {
       return;
     }
     this.setState({ inputs: updatedInputs });
 
-    // finish only if no addresses need to be queried
-    if (!this.shouldShowAddressInput(updatedInputs)) {
-      this.props.onSelectZip(updatedInputs);
-    }
+    // finish since done querying addresses
+    this.props.onSelectZip(updatedInputs);
   }
 
   inputFieldChanged(inputInd, fieldName, e) {
