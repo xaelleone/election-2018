@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import geocoder from 'google-geocoder';
+import inside from 'point-in-polygon';
+
 import { geoFind, getDistrict } from '../util/ajax';
 
 class ZipForm extends Component {
@@ -20,7 +22,6 @@ class ZipForm extends Component {
       }),
     };
     this.zccd = require('../data/zccd.json');
-    this.inside = require('point-in-polygon');
     this.geo = geocoder({ key: 'AIzaSyAeNRZs1K0XE1ck_WZ784HMdA0AVl5TEFE' });
   }
 
@@ -64,7 +65,7 @@ class ZipForm extends Component {
       const districtGeoData = await getDistrict(district.state_abbr, district.cd);
       const boundaries = districtGeoData.geometry.coordinates;
       for (const boundary of boundaries) {
-        if (this.inside([latLong.location.lng, latLong.location.lat], boundary[0])) {
+        if (inside([latLong.location.lng, latLong.location.lat], boundary[0])) {
           return district;
         }
       }
@@ -74,7 +75,7 @@ class ZipForm extends Component {
   async resolveAddresses (inputObj) {
     if (!inputObj.address) {
       const latLong = await geoFind(this.geo, inputObj.address);
-      if (latLong.zip != inputObj.zip) {
+      if (latLong.zip !== inputObj.zip) {
         window.alert('address not in ' + inputObj.name + ' ZIP');
         return null;
       }
