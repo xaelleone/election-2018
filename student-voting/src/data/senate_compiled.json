@@ -1,0 +1,308 @@
+{
+    "AZ": {
+        "party": "R",
+        "state": "AZ",
+        "name": "Jeff Flake",
+        "incumbent": "No",
+        "sabato_rank": "4",
+        "cook_rank": "4",
+        "rothenberg_rank": "4"
+    },
+    "CA": {
+        "party": "D",
+        "state": "CA",
+        "name": "Dianne Feinstein",
+        "incumbent": "Yes",
+        "sabato_rank": "1",
+        "cook_rank": "1",
+        "rothenberg_rank": "1"
+    },
+    "CT": {
+        "party": "D",
+        "state": "CT",
+        "name": "Chris Murphy",
+        "incumbent": "Yes",
+        "sabato_rank": "1",
+        "cook_rank": "1",
+        "rothenberg_rank": "1"
+    },
+    "DE": {
+        "party": "D",
+        "state": "DE",
+        "name": "Tom Carper",
+        "incumbent": "Yes",
+        "sabato_rank": "1",
+        "cook_rank": "1",
+        "rothenberg_rank": "1"
+    },
+    "FL": {
+        "party": "D",
+        "state": "FL",
+        "name": "Bill Nelson",
+        "incumbent": "Yes",
+        "sabato_rank": "4",
+        "cook_rank": "3",
+        "rothenberg_rank": "3.25"
+    },
+    "HI": {
+        "party": "D",
+        "state": "HI",
+        "name": "Mazie Hirono",
+        "incumbent": "Yes",
+        "sabato_rank": "1",
+        "cook_rank": "1",
+        "rothenberg_rank": "1"
+    },
+    "IN": {
+        "party": "D",
+        "state": "IN",
+        "name": "Joe Donnelly",
+        "incumbent": "Yes",
+        "sabato_rank": "4",
+        "cook_rank": "4",
+        "rothenberg_rank": "4"
+    },
+    "ME": {
+        "party": "I",
+        "state": "ME",
+        "name": "Angus King",
+        "incumbent": "Yes",
+        "sabato_rank": "2",
+        "cook_rank": "3",
+        "rothenberg_rank": "1"
+    },
+    "MD": {
+        "party": "D",
+        "state": "MD",
+        "name": "Ben Cardin",
+        "incumbent": "Yes",
+        "sabato_rank": "1",
+        "cook_rank": "1",
+        "rothenberg_rank": "1"
+    },
+    "MA": {
+        "party": "D",
+        "state": "MA",
+        "name": "Elizabeth Warren",
+        "incumbent": "Yes",
+        "sabato_rank": "1",
+        "cook_rank": "1",
+        "rothenberg_rank": "1"
+    },
+    "MI": {
+        "party": "D",
+        "state": "MI",
+        "name": "Debbie Stabenow",
+        "incumbent": "Yes",
+        "sabato_rank": "2",
+        "cook_rank": "2",
+        "rothenberg_rank": "1"
+    },
+    "MN": {
+        "party": "D",
+        "state": "MN",
+        "name": "Amy Klobuchar",
+        "incumbent": "Yes",
+        "sabato_rank": "1",
+        "cook_rank": "1",
+        "rothenberg_rank": "1"
+    },
+    "MS": {
+        "party": "R",
+        "state": "MS",
+        "name": "Roger Wicker",
+        "incumbent": "Yes",
+        "sabato_rank": "7",
+        "cook_rank": "7",
+        "rothenberg_rank": "7"
+    },
+    "MO": {
+        "party": "D",
+        "state": "MO",
+        "name": "Claire McCaskill",
+        "incumbent": "Yes",
+        "sabato_rank": "4",
+        "cook_rank": "4",
+        "rothenberg_rank": "4"
+    },
+    "MT": {
+        "party": "D",
+        "state": "MT",
+        "name": "Jon Tester",
+        "incumbent": "Yes",
+        "sabato_rank": "3",
+        "cook_rank": "2",
+        "rothenberg_rank": "3.25"
+    },
+    "NE": {
+        "party": "R",
+        "state": "NE",
+        "name": "Deb Fischer",
+        "incumbent": "Yes",
+        "sabato_rank": "7",
+        "cook_rank": "7",
+        "rothenberg_rank": "7"
+    },
+    "NV": {
+        "party": "R",
+        "state": "NV",
+        "name": "Dean Heller",
+        "incumbent": "Yes",
+        "sabato_rank": "4",
+        "cook_rank": "4",
+        "rothenberg_rank": "4"
+    },
+    "NJ": {
+        "party": "D",
+        "state": "NJ",
+        "name": "Bob Menendez",
+        "incumbent": "Yes",
+        "sabato_rank": "2",
+        "cook_rank": "2",
+        "rothenberg_rank": "1"
+    },
+    "NM": {
+        "party": "D",
+        "state": "NM",
+        "name": "Martin Heinrich",
+        "incumbent": "Yes",
+        "sabato_rank": "1",
+        "cook_rank": "1",
+        "rothenberg_rank": "1"
+    },
+    "NY": {
+        "party": "D",
+        "state": "NY",
+        "name": "Kirsten Gillibrand",
+        "incumbent": "Yes",
+        "sabato_rank": "1",
+        "cook_rank": "1",
+        "rothenberg_rank": "1"
+    },
+    "ND": {
+        "party": "D",
+        "state": "ND",
+        "name": "Heidi Heitkamp",
+        "incumbent": "Yes",
+        "sabato_rank": "4",
+        "cook_rank": "4",
+        "rothenberg_rank": "4"
+    },
+    "OH": {
+        "party": "D",
+        "state": "OH",
+        "name": "Sherrod Brown",
+        "incumbent": "Yes",
+        "sabato_rank": "3",
+        "cook_rank": "3",
+        "rothenberg_rank": "2.5"
+    },
+    "PA": {
+        "party": "D",
+        "state": "PA",
+        "name": "Bob Casey Jr.",
+        "incumbent": "Yes",
+        "sabato_rank": "2",
+        "cook_rank": "2",
+        "rothenberg_rank": "2.5"
+    },
+    "RI": {
+        "party": "D",
+        "state": "RI",
+        "name": "Sheldon Whitehouse",
+        "incumbent": "Yes",
+        "sabato_rank": "1",
+        "cook_rank": "1",
+        "rothenberg_rank": "1"
+    },
+    "TN": {
+        "party": "R",
+        "state": "TN",
+        "name": "Bob Corker",
+        "incumbent": "No",
+        "sabato_rank": "6",
+        "cook_rank": "4",
+        "rothenberg_rank": "6.25"
+    },
+    "TX": {
+        "party": "R",
+        "state": "TX",
+        "name": "Ted Cruz",
+        "incumbent": "Yes",
+        "sabato_rank": "6",
+        "cook_rank": "6",
+        "rothenberg_rank": "7"
+    },
+    "UT": {
+        "party": "R",
+        "state": "UT",
+        "name": "Orrin Hatch",
+        "incumbent": "No",
+        "sabato_rank": "7",
+        "cook_rank": "7",
+        "rothenberg_rank": "7"
+    },
+    "VT": {
+        "party": "I",
+        "state": "VT",
+        "name": "Bernie Sanders",
+        "incumbent": "Yes",
+        "sabato_rank": "1",
+        "cook_rank": "1",
+        "rothenberg_rank": "1"
+    },
+    "VA": {
+        "party": "D",
+        "state": "VA",
+        "name": "Tim Kaine",
+        "incumbent": "Yes",
+        "sabato_rank": "1",
+        "cook_rank": "1",
+        "rothenberg_rank": "1"
+    },
+    "WA": {
+        "party": "D",
+        "state": "WA",
+        "name": "Maria Cantwell",
+        "incumbent": "Yes",
+        "sabato_rank": "1",
+        "cook_rank": "1",
+        "rothenberg_rank": "1"
+    },
+    "WV": {
+        "party": "D",
+        "state": "WV",
+        "name": "Joe Manchin",
+        "incumbent": "Yes",
+        "sabato_rank": "3",
+        "cook_rank": "4",
+        "rothenberg_rank": "4"
+    },
+    "WI": {
+        "party": "D",
+        "state": "WI",
+        "name": "Tammy Baldwin",
+        "incumbent": "Yes",
+        "sabato_rank": "3",
+        "cook_rank": "2",
+        "rothenberg_rank": "3.25"
+    },
+    "WY": {
+        "party": "R",
+        "state": "WY",
+        "name": "John Barrasso",
+        "incumbent": "Yes",
+        "sabato_rank": "7",
+        "cook_rank": "7",
+        "rothenberg_rank": "7"
+    },
+    "MN-S": {
+        "party": "D",
+        "state": "MN-S",
+        "name": "Tina Smith (Appt)",
+        "incumbent": "Yes",
+        "sabato_rank": "2",
+        "cook_rank": "4",
+        "rothenberg_rank": "1.75"
+    }
+}

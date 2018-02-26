@@ -5,7 +5,7 @@ DE,Tom Carper,D,Yes,Safe D,1
 FL,Bill Nelson,D,Yes,Toss-up,4
 HI,Mazie Hirono,D,Yes,Safe D,1
 IN,Joe Donnelly,D,Yes,Toss-up,4
-ME,Angus King,I/D,Yes,Likely D/I,2
+ME,Angus King,I,Yes,Likely D/I,2
 MD,Ben Cardin,D,Yes,Safe D,1
 MA,Elizabeth Warren,D,Yes,Safe D,1
 MI,Debbie Stabenow,D,Yes,Likely D,2
@@ -25,10 +25,10 @@ RI,Sheldon Whitehouse,D,Yes,Safe D,1
 TN,Bob Corker,R,No,Likely R,6
 TX,Ted Cruz,R,Yes,Likely R,6
 UT,Orrin Hatch,R,No,Safe R,7
-VT,Bernie Sanders,I/D,Yes,Safe D/I,1
+VT,Bernie Sanders,I,Yes,Safe D/I,1
 VA,Tim Kaine,D,Yes,Safe D,1
 WA,Maria Cantwell,D,Yes,Safe D,1
 WV,Joe Manchin,D,Yes,Leans D,3
 WI,Tammy Baldwin,D,Yes,Leans D,3
 WY,John Barrasso,R,Yes,Safe R,7
-MN,Tina Smith (Appt),D,Yes,Likely D,2
+MN-S,Tina Smith (Appt),D,Yes,Likely D,2

@@ -74,6 +74,7 @@ def scrape_senate():
                 assert x[5] == 'Smith Special'
                 x[5] = 'Incumbent'
                 x[6] = 'Smith'
+                x[0] = 'MN-S'
             else:
                 assert x[4] == x[5] == 'Open', 'Senate data unexpected format: ' + str(x)
         elif len(x) == 7:
@@ -95,7 +96,7 @@ def scrape_governors():
         return x[:2] + x[-3:]
     scrape('governor', process)
 
-scrape_house()
-# scrape_senate()
+# scrape_house()
+scrape_senate()
 # scrape_governors()
 

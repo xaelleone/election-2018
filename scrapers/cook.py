@@ -55,6 +55,8 @@ def scrape_senate_or_governors(url, output_filename):
         if output[-1][-3:] == '(I)':
             output[-1] = output[-1][:-3]
             output[0] = 'I'
+        if output[1] == 'MN' and output[2] == 'Smith':
+            output[1] = 'MN-S'
         output.append(cat)
         output.append(SENATE_CATEORY_MAPPING[cat])
         return output
@@ -93,5 +95,5 @@ def scrape_house():
 
 if __name__ == '__main__':
     scrape_senate()
-    scrape_house()
-    scrape_governors()
+    # scrape_house()
+    # scrape_governors()
