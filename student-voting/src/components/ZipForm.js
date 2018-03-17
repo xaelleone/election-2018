@@ -125,7 +125,7 @@ class ZipForm extends Component {
 
   renderZipInput() {
     return (
-      <div>
+      <div class="zip-input">
         {
           this.state.inputs.map((inputObj, ind) => this.renderTextBox(inputObj, ind, 'zip', 'ZIP'))
         }
@@ -169,10 +169,10 @@ class ZipForm extends Component {
 
   render() {
     return (
-      <div>
+      <div className="">
+        { this.renderZipInput() }
         { this.shouldShowAddressInput(this.state.inputs)
-          ? this.renderAddressInput()
-          : this.renderZipInput() }
+          ? this.renderAddressInput() : null }
       </div>
     );
   }
