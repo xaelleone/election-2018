@@ -24,7 +24,11 @@ export function geoFind(geo, address) {
       if (err) {
         return reject(new Error(err));
       } else {
-        return resolve({ location: res[0].location, zip: res[0].postal_code.short_name });
+        if (res.length > 0) {
+          return resolve({ location: res[0].location, zip: res[0].postal_code.short_name });
+        } else {
+          return reject(new Error('bad address'));
+        }
       }
     });
   });

@@ -77,7 +77,13 @@ class ZipForm extends Component {
       window.alert('enter address!')
       return null;
     }
-    const latLong = await geoFind(this.geo, inputObj.address);
+    let latLong;
+    try {
+      latLong = await geoFind(this.geo, inputObj.address);
+    } catch (e) {
+      window.alert('bad address!');
+      return null;
+    }
     if (latLong.zip !== inputObj.zip) {
       window.alert('address not in ' + inputObj.name + ' ZIP');
       return null;
