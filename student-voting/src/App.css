@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #2ECC40;
+}
+
+* { box-sizing: border-box; }
+
 .App {
   text-align: center;
   display: flex;
@@ -20,7 +26,7 @@
 }
 
 button {
-  background-color: #2ECC40;
+  background-color: var(--primary-color);
   border-radius: 5px;
   color: white;
   font-size: 120%;
@@ -29,7 +35,7 @@ button {
 }
 
 input {
-  height: 20px;
+  height: 25px;
   /*border-radius: 5px;*/
   margin: 5px;
 }
@@ -40,7 +46,7 @@ input {
 }
 
 .input-box {
-  border: 1px solid black;
+  border: 1px solid var(--primary-color);
   border-radius: 5px;
   max-width: 400px;
   margin: auto;
@@ -59,4 +65,16 @@ input {
   flex-direction: row;
   justify-content: center;
   padding-top: 10px;
+}
+
+.results-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.results-col {
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
 }

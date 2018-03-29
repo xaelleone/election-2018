@@ -56,21 +56,22 @@ class Results extends Component {
     return (
       <div>
         RESULTS!
-        {
-          this.props.districts.map((val, ind) => {
-            return (
-              <div key={ ind }>
-                <br />
-                { val.name }
-                <br />
-                State: { val.state }, District: { val.district }
-                { this.renderResults(this.senateData, val.state, 'Senate') }
-                { this.renderResults(this.houseData, val.state + val.district, 'House') }
-                { this.renderResults(this.governorData, val.state, 'Governor') }
-              </div>
-            );
-          })
-        }
+        <div className="results-div">
+          {
+            this.props.districts.map((val, ind) => {
+              return (
+                <div key={ ind } className="results-col">
+                  { val.name }
+                  <br />
+                  State: { val.state }, District: { val.district }
+                  { this.renderResults(this.senateData, val.state, 'Senate') }
+                  { this.renderResults(this.houseData, val.state + val.district, 'House') }
+                  { this.renderResults(this.governorData, val.state, 'Governor') }
+                </div>
+              );
+            })
+          }
+        </div>
       </div>
     );
   }
