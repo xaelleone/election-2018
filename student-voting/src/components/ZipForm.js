@@ -125,13 +125,16 @@ class ZipForm extends Component {
 
   renderZipInput() {
     return (
-      <div class="zip-input">
-        {
-          this.state.inputs.map((inputObj, ind) => this.renderTextBox(inputObj, ind, 'zip', 'ZIP'))
-        }
-        <button onClick={ this.compareClicked.bind(this) }>
-          Compare
-        </button>
+      <div className="input-box">
+        Welcome!
+        <div className="zip-input">
+          {
+            this.state.inputs.map((inputObj, ind) => this.renderTextBox(inputObj, ind, 'zip', 'ZIP'))
+          }
+          <button onClick={ this.compareClicked.bind(this) }>
+            Compare
+          </button>
+        </div>
       </div>
     );
   }
@@ -150,7 +153,8 @@ class ZipForm extends Component {
 
   renderAddressInput() {
     return (
-      <div>
+      <div className="input-box address-input">
+        We need some additional information...
         {
           this.state.inputs.map((inputObj, ind) => {
             if (inputObj.queryAddress) {
@@ -169,7 +173,7 @@ class ZipForm extends Component {
 
   render() {
     return (
-      <div className="">
+      <div className="input-area">
         { this.renderZipInput() }
         { this.shouldShowAddressInput(this.state.inputs)
           ? this.renderAddressInput() : null }
