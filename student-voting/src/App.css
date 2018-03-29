@@ -2,7 +2,10 @@
   --primary-color: #2ECC40;
 }
 
-* { box-sizing: border-box; }
+* {
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
 
 .App {
   text-align: center;
@@ -35,8 +38,9 @@ button {
 }
 
 input {
-  height: 25px;
-  /*border-radius: 5px;*/
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  height: 30px;
   margin: 5px;
 }
 
