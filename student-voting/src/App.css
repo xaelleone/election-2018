@@ -63,22 +63,27 @@ input {
   flex-direction: column;
 }
 
+.results-div {
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.results-item {
+  flex: 1;
+  margin: 0 30px;
+}
+
+.results-row {
+  display: flex;
+  justify-content: space-between;
+}
+
 .zip-input {
   align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding-top: 10px;
-}
-
-.results-div {
-  display: flex;
-  flex-direction: row;
-}
-
-.results-col {
-  border: 1px solid var(--primary-color);
-  border-radius: 5px;
-  margin: 10px;
-  padding: 10px;
 }

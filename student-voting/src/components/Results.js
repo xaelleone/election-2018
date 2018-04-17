@@ -48,6 +48,20 @@ class Results extends Component {
     return Math.abs(rank - 4);
   }
 
+  // TODO: make this more refined
+  getCompetitivenessFromRank(rank) {
+    const rankDeviation = this.transformRank(rank);
+    if (rankDeviation > 2.5) {
+      return 'uncompetitive';
+    } else if (rankDeviation > 1.5) {
+      return 'probably uncompetitive';
+    } else if (rankDeviation > 0.5) {
+      return 'somewhat competitive';
+    } else {
+      return 'a toss-up';
+    }
+  }
+
   renderRecommendation(districts) {
     return 'We think you should vote in ' + this.whereToVoteDecision(districts) + '.';
   }
@@ -69,50 +83,71 @@ class Results extends Component {
     }
   }
 
-  renderResults(results, key, label) {
+  renderSpecificElectionResults(results, key, ind) {
     const resultsObj = results[key];
     if (resultsObj) {
       return (
-        <div>
-          { this.renderLabel(label) }
+        <div key={ ind } className="results-item">
           { this.renderIncumbent(resultsObj) }
-          <br />
-          Sabato: { resultsObj.sabato_rank }
-          <br />
-          Cook: { resultsObj.cook_rank }
-          <br />
-          Rothenberg: { resultsObj.rothenberg_rank }
+          <ul>
+            <li>Sabato thinks this race is { this.getCompetitivenessFromRank(resultsObj.sabato_rank) }.</li>
+            <li>Cook thinks this race is { this.getCompetitivenessFromRank(resultsObj.cook_rank) }.</li>
+            <li>Rothenberg thinks this race is { this.getCompetitivenessFromRank(resultsObj.rothenberg_rank) }.</li>
+          </ul>
         </div>
       );
     } else {
       return (
-        <div>
-          { this.renderLabel(label) }
+        <div key={ ind } className="results-item">
           No election this year.
         </div>
       );
     }
   }
 
+  renderResultsRowDiv(contents) {
+    return (
+      <div className="results-row">
+        {
+          this.props.districts.map((val, ind) => contents[ind])
+        }
+      </div>
+    );
+  }
+
+  renderResultsRowText(textContents) {
+    const contents = textContents.map((text, ind) => {
+      return (
+        <div key={ ind } className="results-item">
+          { text }
+        </div>
+      );
+    });
+    return this.renderResultsRowDiv(contents);
+  }
+
+  renderElectionResults(results, keyFunc, label) {
+    const contents = this.props.districts.map((val, ind) => this.renderSpecificElectionResults(results, keyFunc(val), ind));
+    return (
+      <div>
+        { this.renderLabel(label) }
+        { this.renderResultsRowDiv(contents) }
+      </div>
+    );
+  }
+
   render() {
+    const names = this.props.districts.map(val => val.name);
+    const districts = this.props.districts.map(val => 'State: ' + val.state + ', District: ' + val.district);
     return (
       <div>
         { this.renderRecommendation(this.props.districts) }
         <div className="results-div">
-          {
-            this.props.districts.map((val, ind) => {
-              return (
-                <div key={ ind } className="results-col">
-                  { val.name }
-                  <br />
-                  State: { val.state }, District: { val.district }
-                  { this.renderResults(this.senateData, val.state, 'Senate') }
-                  { this.renderResults(this.houseData, val.state + val.district, 'House') }
-                  { this.renderResults(this.governorData, val.state, 'Governor') }
-                </div>
-              );
-            })
-          }
+          { this.renderResultsRowText(names) }
+          { this.renderResultsRowText(districts) }
+          { this.renderElectionResults(this.senateData, val => val.state, 'Senate') }
+          { this.renderElectionResults(this.houseData, val => val.state + val.district, 'House') }
+          { this.renderElectionResults(this.governorData, val => val.state, 'Governor') }
         </div>
       </div>
     );
