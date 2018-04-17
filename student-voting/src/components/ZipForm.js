@@ -38,10 +38,15 @@ class ZipForm extends Component {
     const districts = this.zccd[inputObj.zip];
     if (districts.length > 1) {
       inputObj.queryAddress = true;
+      // reset fields in case this isn't the first time "compare" was clicked
+      inputObj.state = '';
+      inputObj.district = '';
     } else {
+      inputObj.queryAddress = false;
       inputObj.state = districts[0].state_abbr;
       inputObj.district = districts[0].cd;
     }
+    inputObj.address = '';
     return inputObj;
   }
 
