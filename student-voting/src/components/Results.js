@@ -21,7 +21,7 @@ class Results extends Component {
 
   whereToVoteDecision(districts) {
     const ind = argmax(districts, this.districtVoteValue.bind(this));
-    return districts[ind].state;
+    return districts[ind];
   }
 
   districtVoteValue(districtObj) {
@@ -48,6 +48,72 @@ class Results extends Component {
     return Math.abs(rank - 4);
   }
 
+  averageRanks(rank1, rank2, rank3) {
+    return (rank1 + rank2 + rank3) / 3;
+  }
+
+  unabbrState (abbr) {
+    var states = [
+        ['Arizona', 'AZ'],
+        ['Alabama', 'AL'],
+        ['Alaska', 'AK'],
+        ['Arizona', 'AZ'],
+        ['Arkansas', 'AR'],
+        ['California', 'CA'],
+        ['Colorado', 'CO'],
+        ['Connecticut', 'CT'],
+        ['Delaware', 'DE'],
+        ['Florida', 'FL'],
+        ['Georgia', 'GA'],
+        ['Hawaii', 'HI'],
+        ['Idaho', 'ID'],
+        ['Illinois', 'IL'],
+        ['Indiana', 'IN'],
+        ['Iowa', 'IA'],
+        ['Kansas', 'KS'],
+        ['Kentucky', 'KY'],
+        ['Kentucky', 'KY'],
+        ['Louisiana', 'LA'],
+        ['Maine', 'ME'],
+        ['Maryland', 'MD'],
+        ['Massachusetts', 'MA'],
+        ['Michigan', 'MI'],
+        ['Minnesota', 'MN'],
+        ['Mississippi', 'MS'],
+        ['Missouri', 'MO'],
+        ['Montana', 'MT'],
+        ['Nebraska', 'NE'],
+        ['Nevada', 'NV'],
+        ['New Hampshire', 'NH'],
+        ['New Jersey', 'NJ'],
+        ['New Mexico', 'NM'],
+        ['New York', 'NY'],
+        ['North Carolina', 'NC'],
+        ['North Dakota', 'ND'],
+        ['Ohio', 'OH'],
+        ['Oklahoma', 'OK'],
+        ['Oregon', 'OR'],
+        ['Pennsylvania', 'PA'],
+        ['Rhode Island', 'RI'],
+        ['South Carolina', 'SC'],
+        ['South Dakota', 'SD'],
+        ['Tennessee', 'TN'],
+        ['Texas', 'TX'],
+        ['Utah', 'UT'],
+        ['Vermont', 'VT'],
+        ['Virginia', 'VA'],
+        ['Washington', 'WA'],
+        ['West Virginia', 'WV'],
+        ['Wisconsin', 'WI'],
+        ['Wyoming', 'WY'],
+    ];
+    for (var i = 0; i < states.length; i++) {
+        if (states[i][1] == abbr){
+            return(states[i][0].toLowerCase());
+        }
+    }
+  }
+
   // TODO: make this more refined
   getCompetitivenessFromRank(rank) {
     const rankDeviation = this.transformRank(rank);
@@ -62,13 +128,38 @@ class Results extends Component {
     }
   }
 
+  getVoteRegistrationUrl(stateAbbr) {
+    return 'https://www.vote.org/state/' + this.unabbrState(stateAbbr);
+  }
+
   renderRecommendation(districts) {
-    return 'We think you should vote in ' + this.whereToVoteDecision(districts) + '.';
+    return 'We think you should vote at your ' + this.whereToVoteDecision(districts).name + ' address.';
+  }
+
+  renderVoteLinks(districts) {
+    const topState = this.whereToVoteDecision(districts).state;
+    const otherState = (districts[1].state == topState) ? districts[0].state : districts[1].state;
+    return (
+      <div className="vote-links">
+        <div className="top-link">
+          { this.renderVoteLink(topState, false) }
+        </div>
+        <div className="bottom-link">
+          { (districts[0].state != districts[1].state) && this.renderVoteLink(otherState, true) }
+        </div>
+      </div>
+    )
+  }
+
+  renderVoteLink(stateAbbr, isOther) {
+    return (
+      <a href={this.getVoteRegistrationUrl(stateAbbr)}> Register to vote in { stateAbbr }.</a>
+    )
   }
 
   renderLabel(labelText) {
     return (
-      <div>
+      <div className="election-label">
         <strong>{ labelText }</strong>
         <br />
       </div>
@@ -88,12 +179,8 @@ class Results extends Component {
     if (resultsObj) {
       return (
         <div key={ ind } className="results-item">
-          { this.renderIncumbent(resultsObj) }
-          <ul>
-            <li>Sabato thinks this race is { this.getCompetitivenessFromRank(resultsObj.sabato_rank) }.</li>
-            <li>Cook thinks this race is { this.getCompetitivenessFromRank(resultsObj.cook_rank) }.</li>
-            <li>Rothenberg thinks this race is { this.getCompetitivenessFromRank(resultsObj.rothenberg_rank) }.</li>
-          </ul>
+          { this.renderIncumbent(resultsObj) } <br/>
+          We think this race is { this.getCompetitivenessFromRank(this.averageRanks(resultsObj.sabato_rank, resultsObj.cook_rank, resultsObj.rothenberg_rank))}.
         </div>
       );
     } else {
@@ -141,13 +228,25 @@ class Results extends Component {
     const districts = this.props.districts.map(val => 'State: ' + val.state + ', District: ' + val.district);
     return (
       <div>
-        { this.renderRecommendation(this.props.districts) }
+        <div className="results-recommendation">
+          { this.renderRecommendation(this.props.districts) }
+          { this.renderVoteLinks(this.props.districts) }
+        </div>
         <div className="results-div">
           { this.renderResultsRowText(names) }
           { this.renderResultsRowText(districts) }
           { this.renderElectionResults(this.senateData, val => val.state, 'Senate') }
           { this.renderElectionResults(this.houseData, val => val.state + val.district, 'House') }
           { this.renderElectionResults(this.governorData, val => val.state, 'Governor') }
+        </div>
+        <div className="disclaimer">
+          This result is based on the predictions of the following nonpartisan experts:
+          <ul>
+            <li> Larry Sabato&#8217;s Crystal Ball </li>
+            <li> The Cook Political Report </li>
+            <li> Nathan Gonzales&#8217;s Inside Elections </li>
+          </ul>
+          Where you choose to vote should also depend on which issues you care about.
         </div>
       </div>
     );

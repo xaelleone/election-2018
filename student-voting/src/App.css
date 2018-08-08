@@ -44,6 +44,14 @@ input {
   margin: 5px;
 }
 
+ul {
+  list-style-position: inside;
+}
+
+.election-label {
+  font-size: 120%;
+}
+
 .input-area {
   text-align: center;
   width: 100%;
@@ -58,9 +66,20 @@ input {
   width: 100%;
 }
 
+.top-link {
+  font-size: 110%;
+}
+.bottom-link {
+  font-size: 90%;
+}
+
 .address-input {
   display: flex;
   flex-direction: column;
+}
+
+.results-recommendation {
+  font-size: 150%;
 }
 
 .results-div {
@@ -86,4 +105,8 @@ input {
   flex-direction: row;
   justify-content: center;
   padding-top: 10px;
+}
+
+.credits {
+  font-size: 30%;
 }
